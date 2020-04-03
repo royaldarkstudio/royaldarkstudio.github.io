@@ -1,0 +1,1519 @@
+{
+  "scenes": [
+    {
+      "choices": [
+        {
+          "id": "e9859d01-1ca5-4879-953d-55f4b5ac9006",
+          "text": "",
+          "toScene": "c91350c6-e204-4869-af5f-1009967cf1fb",
+          "knots": []
+        }
+      ],
+      "id": "7f122c69-9788-48c9-b4bb-c30e16e8c7bc",
+      "skipAfter": 0.1,
+      "type": "normal",
+      "position": [-579.6013802055558, 348.08688390691],
+      "conditions": [],
+      "tag": "start"
+    },
+    {
+      "choices": [],
+      "id": "7a5c1d49-9af5-4c41-ac34-fb94e2ed5437",
+      "conditionKey": "weekday",
+      "conditions": [
+        {
+          "id": "cc6d3ab0-bd40-470c-88b4-31f1175bb396",
+          "toScene": "aec98df0-7bd9-45b3-ae87-9b39cc62addb",
+          "vMax": 1,
+          "knots": []
+        },
+        {
+          "id": "6889467b-8ef4-47ae-845b-e2ed35a147f0",
+          "toScene": "769938b3-eef8-4ca3-90d1-8cbb4bcec9aa",
+          "vMax": 2,
+          "knots": []
+        },
+        {
+          "id": "24d97bfc-efc5-41ec-9854-017d2f832dcc",
+          "toScene": "9284a41a-ed6d-4749-9c64-d98215b5a64e",
+          "vMax": 3,
+          "knots": []
+        },
+        {
+          "id": "1f9b8e37-26a0-4fb4-a814-a56160cf8b01",
+          "toScene": "215b34ad-bb5c-4d7d-b1df-b4c470ef5fa7",
+          "vMax": 4,
+          "knots": []
+        },
+        {
+          "id": "c620f281-c612-4882-9b78-72dccedc216e",
+          "toScene": "3c45fdc4-123d-434d-a75e-ea0d6dc15d57",
+          "vMax": 5,
+          "knots": []
+        },
+        {
+          "id": "e42675a2-d819-4db7-9f64-ce2cf6b29572",
+          "toScene": "706ad58f-0df7-45fb-940c-74f15dc6f18d",
+          "vMax": 6,
+          "knots": []
+        },
+        {
+          "id": "b8a7aefc-f8e0-425c-a487-e74264e1513a",
+          "toScene": "690d5d35-a878-4102-8af4-55e843c8e928",
+          "vMax": 7,
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [389.00443951165374, 320.03551609322983]
+    },
+    {
+      "choices": [
+        {
+          "id": "1d642d01-cc36-46c4-ad46-8c5605292d7d",
+          "text": "",
+          "toScene": "5518e681-77c3-4ede-87f1-1d7dcc77eafd",
+          "knots": []
+        }
+      ],
+      "id": "772e31af-7818-4754-a008-c6595c68d5f1",
+      "tag": "show weekday-name",
+      "text": "Today is {weekday-name}",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [844.4899432697268, 338.75399690562165],
+      "conditions": [],
+      "skipAfter": 2
+    },
+    {
+      "choices": [
+        {
+          "id": "9ae2d0b8-ee01-47ce-93f4-56980b6faab8",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "aec98df0-7bd9-45b3-ae87-9b39cc62addb",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Sunday"
+      },
+      "type": "update",
+      "position": [593, 226],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "a10b772a-6f82-482e-b15c-eeffdb19a8a2",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "769938b3-eef8-4ca3-90d1-8cbb4bcec9aa",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "type": "update",
+      "position": [585.5221463724401, 284.18987140816006],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "63463b1f-e078-4371-afae-62e138d9befd",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "9284a41a-ed6d-4749-9c64-d98215b5a64e",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Tuesday"
+      },
+      "type": "update",
+      "position": [576.2816320050803, 342.14240355612003],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "1c0c2f97-b837-4228-ba06-998aa1ec3db0",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "215b34ad-bb5c-4d7d-b1df-b4c470ef5fa7",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Wednesday"
+      },
+      "type": "update",
+      "position": [574.1866963010002, 401.23733926020003],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "709023a4-a9a9-4ca6-a098-529a7e71afbd",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "3c45fdc4-123d-434d-a75e-ea0d6dc15d57",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Thursday"
+      },
+      "type": "update",
+      "position": [580.9968248928402, 456.23733926020003],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "829cdd2d-6422-4050-8372-c7684a29ad66",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "706ad58f-0df7-45fb-940c-74f15dc6f18d",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Friday"
+      },
+      "type": "update",
+      "position": [602.4746785204001, 519.0949357040801],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "8cd07018-09de-46c5-9f49-60cabcd06bc6",
+          "toScene": "772e31af-7818-4754-a008-c6595c68d5f1",
+          "knots": []
+        }
+      ],
+      "id": "690d5d35-a878-4102-8af4-55e843c8e928",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Saturday"
+      },
+      "type": "update",
+      "position": [613.5253214795999, 584.95253214796],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "52ef50b3-e8c8-453a-a80b-0d116dbb0a7c",
+          "toScene": "f4c605d4-8bb6-4fec-bbbc-9187f11cd6e6",
+          "knots": []
+        }
+      ],
+      "id": "bff31be9-3b26-4439-88c5-f64e50d1b48b",
+      "effect": {
+        "key": "days",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [-126.79103226549933, 305.0011764829417],
+      "conditions": []
+    },
+    {
+      "choices": [],
+      "id": "b23e34e8-211f-4e1d-9d61-f0474b64c775",
+      "conditionKey": "weekday",
+      "conditions": [
+        {
+          "id": "2ec0bf6d-6639-416e-8a04-0bcdc3f8c19d",
+          "toScene": "ea132225-6e36-422a-a384-1360f8fb69f4",
+          "vMax": 6,
+          "knots": []
+        },
+        {
+          "id": "17c44aeb-84b9-4817-8f8d-5658810d23aa",
+          "toScene": "8a00ffc1-1f81-4ded-be25-10f91d481092",
+          "vMin": 7,
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [132.49612403100778, 304.68863957264443]
+    },
+    {
+      "choices": [
+        {
+          "id": "88bbe17b-a256-4b4a-a0ea-65fabd5fb6d4",
+          "toScene": "7a5c1d49-9af5-4c41-ac34-fb94e2ed5437",
+          "knots": []
+        }
+      ],
+      "id": "8a00ffc1-1f81-4ded-be25-10f91d481092",
+      "effect": {
+        "key": "weekday",
+        "adjust": "",
+        "assign": 1
+      },
+      "type": "update",
+      "position": [255, 392],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "66578b0b-e404-4d73-ab7a-2cabb028f3b1",
+          "toScene": "7a5c1d49-9af5-4c41-ac34-fb94e2ed5437",
+          "knots": []
+        }
+      ],
+      "id": "ea132225-6e36-422a-a384-1360f8fb69f4",
+      "effect": {
+        "key": "weekday",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [255.01331853496117, 245.71698113207557],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "5b0ac4fa-a5e7-489a-bb1b-0be426e29c32",
+          "text": "Sleep",
+          "toScene": "776c6ecf-dd19-4d89-a1f4-36fbba68f7db",
+          "knots": []
+        },
+        {
+          "id": "8e2efae8-3490-4b76-8123-c2b8c7037ca6",
+          "text": "Study",
+          "toScene": "3d798afa-5bdf-4641-944f-3338cebd1614",
+          "knots": []
+        },
+        {
+          "id": "ccd11822-db73-4895-9edf-36cf122d3e11",
+          "text": "To living room",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3004.4942533726235, 749.2838473648038],
+            [2725.553907063425, 725.5295681824426]
+          ]
+        }
+      ],
+      "id": "e7c1b00a-774c-40e3-bb8c-071b29b28d83",
+      "tag": "bedroom",
+      "text": "Day {days}",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [2807.5077683676327, 549.979956212063],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "https://4.bp.blogspot.com/-RSAdi3NMMs8/VakWj_znRcI/AAAAAAAAAMI/lp19iktRyCw/s1600/Rent%2Broom%2Bstockholm.jpg",
+      "textBg": "#977c2b",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "Dancing Script",
+      "fontSize": 35
+    },
+    {
+      "choices": [
+        {
+          "id": "0b14dfa2-89e7-4c24-a566-2a1814a47787",
+          "toScene": "b23e34e8-211f-4e1d-9d61-f0474b64c775",
+          "knots": []
+        }
+      ],
+      "id": "f4c605d4-8bb6-4fec-bbbc-9187f11cd6e6",
+      "effect": {
+        "key": "hour",
+        "adjust": "",
+        "assign": 5
+      },
+      "type": "update",
+      "position": [-5.3624168147552576, 371.15483035291766],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "e6ee86c6-d5e6-472d-84d8-a8da01e4b6f0",
+          "toScene": "8404ad25-8a1e-4a30-bb84-c386418d84ca",
+          "knots": []
+        }
+      ],
+      "id": "64765b07-4b94-4de2-b9aa-c9924cd2adc4",
+      "effect": {
+        "key": "hour",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [2760.857939681052, 996.7359386259608],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "b9b9b88c-ea06-4b5f-af60-327757e9b63d",
+          "toScene": "",
+          "knots": []
+        }
+      ],
+      "id": "637ab30e-7aad-4296-88f3-dad8cd10380c",
+      "effect": {
+        "key": "hygene",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [3571.915913462865, 599.4039801348999],
+      "conditions": []
+    },
+    {
+      "choices": [],
+      "id": "776c6ecf-dd19-4d89-a1f4-36fbba68f7db",
+      "conditionKey": "hour",
+      "conditions": [
+        {
+          "id": "25cd94a5-4b91-41a6-a3f4-19ba44c1a682",
+          "toScene": "21b459b8-2fc6-4875-9ab4-fdea6f26a36d",
+          "vMax": 20,
+          "vMin": 5,
+          "knots": []
+        },
+        {
+          "id": "ffa74297-4bf5-4a3e-b490-ae6e5b849827",
+          "toScene": "bff31be9-3b26-4439-88c5-f64e50d1b48b",
+          "vText": "[default-condition]",
+          "knots": [
+            [2933.4840205690225, 843.4186471069919],
+            [435.96964864396915, 670.5417949162838],
+            [263.3803278832112, 477.1689825915305],
+            [-157.49357011209798, 426.23456723058234]
+          ]
+        }
+      ],
+      "type": "evaluate",
+      "position": [2954.5426788171944, 413.3038827206333]
+    },
+    {
+      "choices": [
+        {
+          "id": "847c55b1-ac31-41b1-aff3-cfea55f3d497",
+          "text": "",
+          "toScene": "e7c1b00a-774c-40e3-bb8c-071b29b28d83",
+          "knots": [
+            [3246.323962338218, 443.7863026118343],
+            [3120.9467649213, 385.05798941209815],
+            [2849.2607122031586, 402.88365958918354],
+            [2775.5281756002732, 510.30518783002776]
+          ]
+        }
+      ],
+      "id": "21b459b8-2fc6-4875-9ab4-fdea6f26a36d",
+      "tag": "reject sleep",
+      "text": "It's still early. Find something to do.",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [3113.209989755298, 454.6994436223841],
+      "conditions": [],
+      "skipAfter": "",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "conditionKey": "hour",
+      "bgm": "",
+      "stopBgm": false,
+      "textBg": "#806b25",
+      "bgPhoto": "",
+      "fontFamily": "",
+      "fontSize": ""
+    },
+    {
+      "choices": [],
+      "id": "5875e8a3-df88-4d1c-b0fe-07dda079be42",
+      "conditionKey": "hour",
+      "conditions": [
+        {
+          "id": "73bc1280-5fe2-4612-afb8-11b71d88403d",
+          "toScene": "64765b07-4b94-4de2-b9aa-c9924cd2adc4",
+          "vMax": 23,
+          "vMin": 1,
+          "knots": []
+        },
+        {
+          "id": "f4de4b66-c575-428e-a563-2c14eb939c92",
+          "toScene": "273c7ad4-05cf-4170-9523-d1b705eceb27",
+          "vText": "[default-condition]",
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [2630.075777700459, 1020.1209673399808]
+    },
+    {
+      "choices": [
+        {
+          "id": "b3cf531d-969a-46d1-8ace-94b7758aa611",
+          "toScene": "d2fe2fe9-8640-4a08-9d95-85c039389826",
+          "knots": []
+        }
+      ],
+      "id": "273c7ad4-05cf-4170-9523-d1b705eceb27",
+      "effect": {
+        "key": "hour",
+        "adjust": "",
+        "assign": 0
+      },
+      "type": "update",
+      "position": [2761.3061928122315, 1068.377336121017],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "b81c65af-c1d6-4261-8c29-ea8f39442205",
+          "toScene": "8404ad25-8a1e-4a30-bb84-c386418d84ca",
+          "knots": []
+        }
+      ],
+      "id": "d2fe2fe9-8640-4a08-9d95-85c039389826",
+      "effect": {
+        "key": "days",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [2926.859979279906, 1084.728955239056],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "1fb98f63-9277-4d14-8584-efddcffcc70b",
+          "text": "Read news",
+          "toScene": "2b8aaea6-0ca3-4b12-89bc-c738126ad473",
+          "knots": []
+        },
+        {
+          "id": "96c2c592-d3cc-4701-b4c4-4d6821466331",
+          "text": "Take a nap",
+          "toScene": "dae2e773-c29d-4a29-bd3b-806e271830f4",
+          "knots": []
+        },
+        {
+          "id": "5bbbfd57-6c5c-401c-bdee-db456ff24405",
+          "text": "Go to ...",
+          "toScene": "ba8fad51-255f-4392-91e8-98b8cb836d2f",
+          "knots": []
+        }
+      ],
+      "id": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+      "tag": "living room",
+      "text": "In living room ...",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [2779.9227856376874, 742.6095660758123],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "https://student-cribs.com/assets/cbf1814569ba316686657265bf62102a.jpg",
+      "textBg": "#796220",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "textDelay": 1,
+      "bgWidth": ""
+    },
+    {
+      "choices": [
+        {
+          "id": "d81f2297-eb41-45aa-b574-c01ab825810a",
+          "text": "Bedroom",
+          "toScene": "e7c1b00a-774c-40e3-bb8c-071b29b28d83",
+          "knots": [
+            [3252.350574780933, 699.328061698963],
+            [2676.553054938374, 715.937911729079]
+          ]
+        },
+        {
+          "id": "848523a2-b1f7-4f1d-8591-8a1d55a8d01a",
+          "text": "Bathroom",
+          "toScene": "00acaf9f-236d-4271-8c39-04b5f04a5fc9",
+          "knots": []
+        },
+        {
+          "id": "829671ce-7533-4ea5-b7d7-0773e6f3005d",
+          "text": "Kitchen",
+          "toScene": "b6eadc67-4e33-48d7-9895-7c902a8c9e87",
+          "knots": []
+        },
+        {
+          "id": "9ef615be-4ba0-49fc-abc9-49899a751358",
+          "text": "Outdoor",
+          "toScene": "bdd54096-4e2d-4d47-b5fb-905e1b4471cc",
+          "knots": []
+        },
+        {
+          "id": "ebfefaaa-e618-4910-a9c0-c2a093e39245",
+          "text": "Let me see ...",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3238.483291303447, 917.7245414766356],
+            [2682.175077924956, 925.3627902913435]
+          ]
+        }
+      ],
+      "id": "ba8fad51-255f-4392-91e8-98b8cb836d2f",
+      "tag": "living room",
+      "text": "Where?",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [3059.71596419158, 726.5307995425737],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "",
+      "textBg": "#9e812c",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "textDelay": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "b7cea158-4efe-4094-9fba-1eac08923a4b",
+          "text": "",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3448.2399468677436, 1003.8941442691718],
+            [2615.5159762740404, 828.4289176249038]
+          ]
+        }
+      ],
+      "id": "82f05c72-448d-4bb1-bcbd-872dab8e156d",
+      "tag": "after nap",
+      "text": "You took a nap.\nIt's {weekday-name} at {hour}:00",
+      "type": "normal",
+      "position": [3335.570262650785, 1103.7457540850673],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#665723",
+      "conditions": []
+    },
+    {
+      "choices": [],
+      "id": "c38ec426-9638-4a13-9d94-3e9848a0eb92",
+      "conditionKey": "days",
+      "conditions": [
+        {
+          "id": "6dd0645a-2aec-4116-81bf-3e215f664b0e",
+          "toScene": "ff170f38-85aa-47da-999f-594de4fd51bc",
+          "vMax": 1,
+          "knots": []
+        },
+        {
+          "id": "63a17eeb-7258-4f51-9688-8b438c7a66d6",
+          "toScene": "e7c1b00a-774c-40e3-bb8c-071b29b28d83",
+          "vMax": "",
+          "vText": "[default-condition]",
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [1067.768065413228, 284.89569798562445]
+    },
+    {
+      "choices": [
+        {
+          "id": "949bbdf6-7895-4718-a14c-981acb74f4d7",
+          "text": "",
+          "toScene": "c38ec426-9638-4a13-9d94-3e9848a0eb92",
+          "knots": []
+        }
+      ],
+      "id": "5518e681-77c3-4ede-87f1-1d7dcc77eafd",
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/82050_02_-_It_All_Comes_Together_-_Master_%2302_(16-44.1).mp3",
+      "type": "normal",
+      "position": [924.5554629575963, 203.98947271708926],
+      "conditions": [],
+      "tag": "BGM Home",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "bcf11337-b9b0-404e-a9c5-5b3866da9549",
+          "text": "",
+          "toScene": "713bc993-b936-4cda-966c-669418a1f436",
+          "knots": []
+        }
+      ],
+      "id": "ff170f38-85aa-47da-999f-594de4fd51bc",
+      "tag": "bedroom",
+      "text": "Day {days}",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1173.3309423046117, 154.85824705470543],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "https://4.bp.blogspot.com/-RSAdi3NMMs8/VakWj_znRcI/AAAAAAAAAMI/lp19iktRyCw/s1600/Rent%2Broom%2Bstockholm.jpg",
+      "textBg": "#977c2b",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "Dancing Script",
+      "fontSize": 35
+    },
+    {
+      "choices": [
+        {
+          "id": "89cc4972-0d97-4ad8-b5dd-45c337afb832",
+          "text": "",
+          "toScene": "63d056c0-ee73-48e9-9c8c-40237f772659",
+          "knots": []
+        }
+      ],
+      "id": "713bc993-b936-4cda-966c-669418a1f436",
+      "tag": "phone ring",
+      "text": "Some one is calling ...",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1286.1726584588191, 239.26515294239732],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "https://gitlab.com/SaberMod/pa-android-frameworks-base/-/raw/49e057d7eedb44f5397781254acab4e0ef08a9cf/data/sounds/ringtones/ringtone22.ogg",
+      "textBg": "#a3762b"
+    },
+    {
+      "choices": [],
+      "id": "c91350c6-e204-4869-af5f-1009967cf1fb",
+      "conditionKey": "status",
+      "conditions": [
+        {
+          "id": "052cc7ea-f808-468a-a72c-16e997f98878",
+          "toScene": "bff31be9-3b26-4439-88c5-f64e50d1b48b",
+          "vText": "init",
+          "knots": []
+        },
+        {
+          "id": "d2a340df-0558-4f9f-bbd6-4b471dad4b80",
+          "toScene": "3a4be559-e81e-4aaa-908b-85f944a8fe8e",
+          "vText": "[default-condition]",
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [-373.9406598021142, 347.85985078497686]
+    },
+    {
+      "choices": [
+        {
+          "id": "e57aa847-027d-4f5d-a466-7d48abfbf89a",
+          "toScene": "66af7546-e412-4158-b743-bf7fdc33c91b",
+          "knots": []
+        }
+      ],
+      "id": "453073ef-c5ca-48ca-a596-a3b071ec77ee",
+      "effect": {
+        "key": "days",
+        "assign": 0
+      },
+      "type": "update",
+      "position": [-133.6675771167689, 512.2192027731937],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "a22b3606-a57b-4755-b334-d37d561aeb42",
+          "toScene": "453073ef-c5ca-48ca-a596-a3b071ec77ee",
+          "knots": []
+        }
+      ],
+      "id": "3a4be559-e81e-4aaa-908b-85f944a8fe8e",
+      "effect": {
+        "key": "status",
+        "textValue": "init"
+      },
+      "type": "update",
+      "position": [-283.88849022427894, 498.08076389248686],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "14c67964-4023-418e-b80b-6f460ea31653",
+          "toScene": "bff31be9-3b26-4439-88c5-f64e50d1b48b",
+          "knots": [
+            [162.88891545302252, 506.51500594132557],
+            [-200.15808616772136, 437.3631961088029]
+          ]
+        }
+      ],
+      "id": "66af7546-e412-4158-b743-bf7fdc33c91b",
+      "effect": {
+        "key": "weekday",
+        "textValue": "",
+        "assign": 0
+      },
+      "type": "update",
+      "position": [14.584890004851022, 513.1071517304505],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "f3cf98a2-be7c-475e-abd9-04b66e9e5072",
+          "text": "",
+          "toScene": "e940a773-3616-4a07-b762-5ee0322e2648",
+          "knots": []
+        }
+      ],
+      "id": "63d056c0-ee73-48e9-9c8c-40237f772659",
+      "tag": "Hemi's call",
+      "text": "Hello, this is Hemi, manager of Korean Cafe ...",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1370.8928189974677, 141.69432811735783],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "textBg": "#855e1e",
+      "photoUrl": "https://i.lih.kg/540/https://na.cx/i/3yQbqWh.png",
+      "photoBottom": "",
+      "photoWidth": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": 200,
+      "photoPersist": true
+    },
+    {
+      "choices": [
+        {
+          "id": "43d91e9a-3274-4daa-a273-005eddd0dc4e",
+          "text": "",
+          "toScene": "264da226-40ad-4aa3-ac0e-f7a4a6f01eeb",
+          "knots": []
+        }
+      ],
+      "id": "e940a773-3616-4a07-b762-5ee0322e2648",
+      "tag": "Hemi's call",
+      "text": "I am happy to tell you that we've decided to hire you to work at our Cafe ...",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1464.3102920925505, 231.0208393815858],
+      "conditions": [],
+      "skipAfter": "",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "conditionKey": "hour",
+      "bgm": "",
+      "stopBgm": false,
+      "textBg": "#57491a",
+      "bgPhoto": "",
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "photoUrl": "",
+      "photoBottom": 80,
+      "photoWidth": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": "",
+      "photoPersist": false
+    },
+    {
+      "choices": [
+        {
+          "id": "57c41834-755c-4325-b3ca-ca74ef821161",
+          "text": "",
+          "toScene": "bfa727de-a0f8-48b6-a842-1407513638ee",
+          "knots": []
+        }
+      ],
+      "id": "264da226-40ad-4aa3-ac0e-f7a4a6f01eeb",
+      "tag": "Hemi's call",
+      "text": "You said you are available immediately, right?\nPerfect! Please come over today, we need you so badly!",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1554.2099109579294, 132.3709656422334],
+      "conditions": [],
+      "skipAfter": "",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "conditionKey": "hour",
+      "bgm": "",
+      "stopBgm": false,
+      "textBg": "#57450a",
+      "bgPhoto": "",
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "photoUrl": "",
+      "photoBottom": 80,
+      "photoWidth": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": "",
+      "photoPersist": false,
+      "clearPhoto": true
+    },
+    {
+      "choices": [
+        {
+          "id": "1cb1c689-1d55-420b-a18d-ce9a974294df",
+          "text": "",
+          "toScene": "fb419fd9-b5fb-4f78-8446-a96e90d39fca",
+          "knots": []
+        }
+      ],
+      "id": "bfa727de-a0f8-48b6-a842-1407513638ee",
+      "tag": "Hemi's call",
+      "text": "Great! I was just wondering if they would hire me or not.\nIt's a nice Cafe and I believe I can learn some Korean there!",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1634.857996658323, 239.29224487431682],
+      "conditions": [],
+      "skipAfter": "",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "conditionKey": "hour",
+      "bgm": "",
+      "stopBgm": false,
+      "textBg": "#614f15",
+      "bgPhoto": "",
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "photoUrl": "",
+      "photoBottom": 80,
+      "photoWidth": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": "",
+      "photoPersist": false
+    },
+    {
+      "choices": [
+        {
+          "id": "656c4a15-7995-441d-a905-27356de5686e",
+          "text": "",
+          "toScene": "eaf83e42-9101-4b05-8a22-3b2aca5f9b68",
+          "knots": []
+        }
+      ],
+      "id": "fb419fd9-b5fb-4f78-8446-a96e90d39fca",
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/97787_FUNSTER_-_Master_(16-44.1).mp3",
+      "type": "normal",
+      "position": [1406.6704403094618, 475.4631174251679],
+      "conditions": [],
+      "tag": "BGM Cafe",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "985fc186-4c97-4186-89b2-3d9a3ea22a57",
+          "text": "",
+          "toScene": "350eaf61-630c-4783-b3b6-8fbee7c35a51",
+          "knots": []
+        }
+      ],
+      "id": "c216b0d9-4582-416f-a581-b275a4acd3cd",
+      "tag": "Hemi",
+      "text": "Hey! Good to see you!",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1598.617460724674, 448.49258822578656],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "textBg": "#50360b",
+      "photoUrl": "https://na.cx/i/WJJHxBi.png",
+      "photoBottom": 0,
+      "photoWidth": 300,
+      "photoLeft": 200,
+      "photoRight": 0,
+      "photoTop": "",
+      "photoPersist": true,
+      "clearPhoto": false
+    },
+    {
+      "choices": [
+        {
+          "id": "af7106de-13e1-4b58-ba1a-a2e113343b5e",
+          "text": "",
+          "toScene": "afcd8758-7279-4027-9312-d6589a8efa61",
+          "knots": []
+        }
+      ],
+      "id": "bdd54096-4e2d-4d47-b5fb-905e1b4471cc",
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/116360_Paris_-_Master_(16-44.1)RG.mp3",
+      "type": "normal",
+      "position": [3279.388589380638, 867.7235565390523],
+      "conditions": [],
+      "tag": "BGM Calme",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "c2eab014-6a2c-4eae-b764-5df90f081013",
+          "text": "",
+          "toScene": "c216b0d9-4582-416f-a581-b275a4acd3cd",
+          "knots": []
+        }
+      ],
+      "id": "eaf83e42-9101-4b05-8a22-3b2aca5f9b68",
+      "bgPhoto": "https://www.orlandosentinel.com/resizer/sXlCEQFA-mxfWKcSvVEsAid-ER8=/1200x0/top/www.trbimg.com/img-581a5ded/turbine/ph-mg-ho-tous-les-jours-20161102",
+      "type": "normal",
+      "position": [1486.5096276963527, 346.36148186652036],
+      "tag": "Background Cafe",
+      "skipAfter": 2,
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "d0dd9809-86c0-441b-ae54-85d2c7238f86",
+          "text": "",
+          "toScene": "8c975a51-33bc-42c9-8edc-acb9206f9e99",
+          "knots": []
+        }
+      ],
+      "id": "350eaf61-630c-4783-b3b6-8fbee7c35a51",
+      "tag": "Hemi",
+      "text": "It's your first time working at cafe? Don't worry, we are all nice and friendly.",
+      "textBg": "#cc3a3a",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1663.6492589440884, 337.4045231785258],
+      "conditions": [],
+      "skipAfter": "",
+      "bgm": "",
+      "bgPhoto": "",
+      "conditionKey": "hour",
+      "effect": {
+        "key": "weekday-name",
+        "textValue": "Monday"
+      },
+      "stopBgm": false,
+      "fontFamily": "",
+      "fontSize": "",
+      "audio": "",
+      "photoUrl": "",
+      "photoBottom": 0,
+      "photoWidth": 300,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": "",
+      "photoPersist": false,
+      "clearPhoto": false
+    },
+    {
+      "choices": [
+        {
+          "id": "6d12968d-b50b-4c7b-835a-bb616f289180",
+          "text": "",
+          "toScene": "f0c2f2c2-2a45-4812-8742-15eebd50d978",
+          "knots": []
+        }
+      ],
+      "id": "8c975a51-33bc-42c9-8edc-acb9206f9e99",
+      "tag": "Hemi",
+      "text": "Let me introduce ...",
+      "textBg": "#cc3a3a",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1742.1208536763777, 423.7921036841491],
+      "conditions": [],
+      "clearPhoto": false
+    },
+    {
+      "choices": [
+        {
+          "id": "70b907a7-3cdd-4a45-93b1-36dfb8de3b82",
+          "text": "",
+          "toScene": "5c8c4de0-051b-496b-9785-16552591e43e",
+          "knots": []
+        }
+      ],
+      "id": "f0c2f2c2-2a45-4812-8742-15eebd50d978",
+      "tag": "Hemi",
+      "text": "This is Seomin, our chief baker, he will teach you everything to become a successful baker like him!",
+      "textBg": "#cc3a3a",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [1852.087850376047, 333.09903437721937],
+      "conditions": [],
+      "photoPersist": true,
+      "photoUrl": "https://na.cx/i/itH5wpG.png",
+      "photoBottom": -540,
+      "photoLeft": 0,
+      "photoRight": 300,
+      "photoWidth": 360,
+      "photoDuration": 0.4,
+      "photoEnterFrom": "left"
+    },
+    {
+      "choices": [
+        {
+          "id": "a7f56f09-9727-4251-8772-1bdd75091234",
+          "text": "",
+          "toScene": "a7a9ddf2-33bd-4ac8-95a7-717566ae580b",
+          "knots": []
+        }
+      ],
+      "id": "5c8c4de0-051b-496b-9785-16552591e43e",
+      "tag": "Seomin",
+      "text": "Hi, my name is Seomin. Nice to meet you ...",
+      "textBg": "#805518",
+      "type": "normal",
+      "position": [1968.1046835004058, 436.88591088146194],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "9dafcade-a0e6-4eae-a28c-511a9af3b74c",
+          "text": "",
+          "toScene": "1e40416a-1e7f-4241-a87f-24d3c5a0c961",
+          "knots": []
+        }
+      ],
+      "id": "a7a9ddf2-33bd-4ac8-95a7-717566ae580b",
+      "tag": "Seomin",
+      "text": "Nice to meet you, Seomin.\nMy name is ...",
+      "textBg": "#805518",
+      "type": "normal",
+      "position": [2070.9867795702744, 336.71123839238004],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "conditions": [],
+      "enableInput": true,
+      "inputKey": "player-name"
+    },
+    {
+      "choices": [
+        {
+          "id": "97a9f82d-f505-4929-aab0-3d9df95bf41d",
+          "text": "",
+          "toScene": "3bbc466e-df4a-42a7-b468-e2ce71c96549",
+          "knots": []
+        }
+      ],
+      "id": "1e40416a-1e7f-4241-a87f-24d3c5a0c961",
+      "tag": "Hemi",
+      "text": "Hey {player-name}, people are coming, we should start working now ...",
+      "textBg": "#cc3a3a",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [2179.0640851174226, 434.9711429854593],
+      "conditions": [],
+      "clearPhoto": false
+    },
+    {
+      "choices": [
+        {
+          "id": "dfb9e7ce-492a-48f9-8732-b4cf0dab6d61",
+          "text": "",
+          "toScene": "7b8a57cc-bcc5-4f66-81d6-74057239abf5",
+          "knots": []
+        }
+      ],
+      "id": "3bbc466e-df4a-42a7-b468-e2ce71c96549",
+      "tag": "Hemi",
+      "text": "Seomin, please take care of {player-name}. Let's bake something tasty for our customers!",
+      "textBg": "#cc3a3a",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [2283.256224855413, 330.86633949201064],
+      "conditions": [],
+      "clearPhoto": false
+    },
+    {
+      "choices": [
+        {
+          "id": "fc38250c-4f01-4324-b27f-04bf159189d3",
+          "text": "",
+          "toScene": "c91350c6-e204-4869-af5f-1009967cf1fb",
+          "knots": [
+            [2466.446596321876, 67.55543224922363],
+            [-410.58962882090697, 126.13149069751258]
+          ]
+        }
+      ],
+      "id": "7b8a57cc-bcc5-4f66-81d6-74057239abf5",
+      "tag": "Seomin",
+      "text": "Sure!",
+      "textBg": "#805518",
+      "type": "normal",
+      "position": [2410.28808961394, 438.89464450591635],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "conditions": [],
+      "clearPhoto": true
+    },
+    {
+      "choices": [],
+      "id": "8404ad25-8a1e-4a30-bb84-c386418d84ca",
+      "conditionKey": "action",
+      "conditions": [
+        {
+          "id": "ea9387c6-0f8e-4093-b892-153bb8dae8f1",
+          "toScene": "f32a2d1e-e2b5-4b6f-b5ca-4c993f596307",
+          "vText": "study",
+          "knots": []
+        },
+        {
+          "id": "5abfdafa-040d-4be3-a1be-f749ee4e5ca9",
+          "toScene": "82f05c72-448d-4bb1-bcbd-872dab8e156d",
+          "vText": "nap",
+          "knots": []
+        },
+        {
+          "id": "9a7d3b90-4371-4f18-9b4c-49399ce32670",
+          "toScene": "",
+          "vText": "[default-condition]",
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [3135.6038012761464, 1043.342853470003]
+    },
+    {
+      "choices": [
+        {
+          "id": "3225cd0d-d6e8-4b6a-a5a1-2cd17df57f4b",
+          "toScene": "5875e8a3-df88-4d1c-b0fe-07dda079be42",
+          "knots": [
+            [3018.0557519776694, 959.9250414765398],
+            [2585.494848828534, 984.8804781966822]
+          ]
+        }
+      ],
+      "id": "dae2e773-c29d-4a29-bd3b-806e271830f4",
+      "effect": {
+        "key": "action",
+        "textValue": "nap"
+      },
+      "type": "update",
+      "position": [2952.9583859068916, 839.1144660456964],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "0643457f-ccf8-4f7f-9c45-599cf4f480a2",
+          "toScene": "5875e8a3-df88-4d1c-b0fe-07dda079be42",
+          "knots": [
+            [3309.2025137126643, 939.7230212745197],
+            [2580.7414323104117, 1007.4592066577635]
+          ]
+        }
+      ],
+      "id": "3d798afa-5bdf-4641-944f-3338cebd1614",
+      "effect": {
+        "key": "action",
+        "textValue": "study"
+      },
+      "type": "update",
+      "position": [3073.908396065607, 574.8983035086281],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "29d50dec-c50f-4b91-a7b0-5efdca3a5b68",
+          "text": "",
+          "toScene": "e7c1b00a-774c-40e3-bb8c-071b29b28d83",
+          "knots": [
+            [3405.4591982046422, 957.5483332174787],
+            [3203.529370448549, 649.0696760441587],
+            [2753.0527810923472, 612.9256356536071]
+          ]
+        }
+      ],
+      "id": "f32a2d1e-e2b5-4b6f-b5ca-4c993f596307",
+      "tag": "after study",
+      "text": "You studied for one hour.\nIt's {weekday-name} at {hour}:00",
+      "type": "normal",
+      "position": [3304.2690148789493, 1032.0404659091919],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#63531d",
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "ad6c59a0-9184-4e89-a485-08c71e168279",
+          "text": "",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3357.0925613319378, 737.2713094623272],
+            [2683.6231735768433, 882.5014945596203]
+          ]
+        }
+      ],
+      "id": "2b8aaea6-0ca3-4b12-89bc-c738126ad473",
+      "tag": "read news",
+      "text": "You read some interesting news ...",
+      "type": "normal",
+      "position": [3270.2300969862117, 610.7210544236729],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#63531d",
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "aa9fab25-5667-4293-9f1f-3c4d0fbd0642",
+          "text": "",
+          "toScene": "125bf34f-2eb8-4b9d-ab17-7a30b0755445",
+          "knots": []
+        }
+      ],
+      "id": "b6eadc67-4e33-48d7-9895-7c902a8c9e87",
+      "tag": "Kitchen",
+      "bgPhoto": "https://cdn.home-designing.com/wp-content/uploads/2014/12/cozy-warm-kitchen.jpg",
+      "type": "normal",
+      "position": [3322.3786015671512, 765.3486558579618],
+      "skipAfter": 1,
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "fbe2ba6c-2663-4f75-bf53-6325aff162f7",
+          "text": "",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3460.538451658154, 791.8788117395397],
+            [2632.3886219192314, 918.5530455647369]
+          ]
+        }
+      ],
+      "id": "125bf34f-2eb8-4b9d-ab17-7a30b0755445",
+      "tag": "in kitchen",
+      "text": "I'm not hungry though ...",
+      "type": "normal",
+      "position": [3421.921356918106, 686.1353563532978],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#63531d",
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "7c278814-d319-4670-af05-201f98d63a77",
+          "text": "",
+          "toScene": "32621935-ef5f-48d9-8bcc-de817909e798",
+          "knots": []
+        }
+      ],
+      "id": "afcd8758-7279-4027-9312-d6589a8efa61",
+      "tag": "BG Outdoor",
+      "skipAfter": 2,
+      "bgPhoto": "https://www.tripzilla.com/wp-content/uploads/2016/10/7273958786_3f08a92850_k.jpg",
+      "type": "normal",
+      "position": [3441.469212157587, 820.4826709903907],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "08e9f7dc-0ae5-451c-9a36-6fc8d95770d2",
+          "text": "",
+          "toScene": "339614c8-8de7-4f89-ba7b-2294c801d0d2",
+          "knots": [
+            [3619.9028103414666, 1004.3646233172898],
+            [2665.0787467773466, 956.6915245658715]
+          ]
+        }
+      ],
+      "id": "32621935-ef5f-48d9-8bcc-de817909e798",
+      "tag": "Outdoor",
+      "text": "It's so crowded outside ...",
+      "type": "normal",
+      "position": [3546.3708461349042, 893.6722462511391],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#161409",
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "0ec2f53f-3e49-4e9b-8804-a15f42880e17",
+          "text": "",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": []
+        }
+      ],
+      "id": "339614c8-8de7-4f89-ba7b-2294c801d0d2",
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/82050_02_-_It_All_Comes_Together_-_Master_%2302_(16-44.1).mp3",
+      "type": "normal",
+      "position": [2680.787018008654, 869.1881106285459],
+      "conditions": [],
+      "tag": "BGM Home",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "df3991f2-9042-4241-b0c7-55c00d081366",
+          "text": "",
+          "toScene": "57b88ecf-dff9-4da7-874e-d95f15da4852",
+          "knots": []
+        }
+      ],
+      "id": "00acaf9f-236d-4271-8c39-04b5f04a5fc9",
+      "tag": "Background Bathroom",
+      "bgPhoto": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ea17dc72255835.5be177ed69a0c.png",
+      "type": "normal",
+      "position": [3497.488023437979, 734.4229825922042],
+      "conditions": [],
+      "skipAfter": 1,
+      "bgWidth": ""
+    },
+    {
+      "choices": [
+        {
+          "id": "f25c2c35-6927-4a53-9981-bb9b7ce817a9",
+          "text": "",
+          "toScene": "ee09b594-2757-4af1-97a3-823aa2ec3331",
+          "knots": [
+            [3806.95483518988, 827.1324494039553],
+            [2643.5163150593157, 876.751600655315]
+          ]
+        }
+      ],
+      "id": "57b88ecf-dff9-4da7-874e-d95f15da4852",
+      "tag": "in bathroom",
+      "text": "Nothing to do here ...",
+      "type": "normal",
+      "position": [3710.0171131749044, 736.5814934588471],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "textBg": "#63531d",
+      "conditions": [],
+      "bgWidth": ""
+    }
+  ],
+  "id": "lets-learn-korean",
+  "language": "English",
+  "title": "Let's Learn Korean !",
+  "description": "This story helps you learn Korean in a fun and casual way",
+  "position": [263.4867940105197, 85.82918132183302],
+  "zoom": 43.950000000000756,
+  "startScene": "7f122c69-9788-48c9-b4bb-c30e16e8c7bc",
+  "author": {
+    "name": "Royal Dark Studio"
+  },
+  "copyright": "2020 Royal Dark Studio",
+  "lastEditTime": 1585891538656
+}
