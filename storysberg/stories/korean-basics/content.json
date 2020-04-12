@@ -11,7 +11,10 @@
       "id": "e1332a2d-0f99-453f-8545-3ac6c73b3581",
       "tag": "BGM 1",
       "type": "normal",
-      "position": [-29.985085377794803, 226.89496721993788],
+      "position": [
+        -29.985085377794803,
+        226.89496721993788
+      ],
       "stopBgm": false,
       "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/53282_10_-_Weight_of_My_Love_-_Instrumental_Master_(16-44.1).mp3",
       "skipAfter": 1,
@@ -30,10 +33,14 @@
       "tag": "Background 1",
       "bgPhoto": "https://i.pinimg.com/originals/51/f7/9f/51f79f98f6eaa8faeac426a112d4818c.jpg",
       "type": "normal",
-      "position": [302.9005732221719, 294.92046665147916],
+      "position": [
+        302.9005732221719,
+        294.92046665147916
+      ],
       "conditions": [],
       "skipAfter": 0.2,
-      "bgFilter": "blur(2px)"
+      "bgFilter": "blur(2px)",
+      "entryPoint": true
     },
     {
       "choices": [
@@ -50,7 +57,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [607.8321480071144, 271.6034919471979],
+      "position": [
+        607.8321480071144,
+        271.6034919471979
+      ],
       "fontSize": 24,
       "textBottom": "",
       "conditions": [],
@@ -106,7 +116,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [829.1389522156184, 341.4991143478546],
+      "position": [
+        829.1389522156184,
+        341.4991143478546
+      ],
       "fontSize": 24,
       "textBottom": 200,
       "conditions": [],
@@ -128,7 +141,10 @@
       "photoLeft": 0,
       "photoRight": 0,
       "type": "normal",
-      "position": [380.82904969777945, 377.8449793238216],
+      "position": [
+        380.82904969777945,
+        377.8449793238216
+      ],
       "photoWidth": 200,
       "skipAfter": 0.4,
       "photoOpacity": 0,
@@ -181,7 +197,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [500.0770790695636, 322.79083987907177],
+      "position": [
+        500.0770790695636,
+        322.79083987907177
+      ],
       "fontSize": 24,
       "textBottom": 200,
       "conditions": [],
@@ -192,7 +211,7 @@
       "choices": [
         {
           "id": "3dccb55a-b0ef-4bfe-ae0a-b17d0f2ea425",
-          "toScene": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
+          "toScene": "",
           "knots": []
         }
       ],
@@ -203,7 +222,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [951.1405742756342, 325.1122530339862],
+      "position": [
+        951.1405742756342,
+        325.1122530339862
+      ],
       "fontSize": 24,
       "textBottom": "",
       "conditions": [],
@@ -238,7 +260,10 @@
       "photoLeft": 0,
       "photoRight": 0,
       "type": "normal",
-      "position": [740.1727806105201, 274.6570199277335],
+      "position": [
+        740.1727806105201,
+        274.6570199277335
+      ],
       "photoWidth": 300,
       "skipAfter": 0.4,
       "photoOpacity": 0,
@@ -266,33 +291,17 @@
       "skipAfter": 0.4,
       "clearPhoto": true,
       "type": "normal",
-      "position": [663.6628753377679, 333.87741290025417],
-      "conditions": []
-    },
-    {
-      "choices": [
-        {
-          "id": "c855cdaf-ce87-466c-b0d8-92e79465de56",
-          "toScene": "f4c49a8c-b70b-4da2-8860-cbe387635952",
-          "knots": [
-            [1115.964647657758, 574.9995733256912],
-            [55.70802917473355, 430.7734891938092]
-          ]
-        }
+      "position": [
+        663.6628753377679,
+        333.87741290025417
       ],
-      "id": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
-      "tag": "clear",
-      "skipAfter": 0.4,
-      "clearPhoto": true,
-      "type": "normal",
-      "position": [1016.1234813696334, 477.13561432101204],
       "conditions": []
     },
     {
       "choices": [
         {
           "id": "c4bbb534-b659-4d1a-abe4-6a7f213a3d51",
-          "toScene": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
+          "toScene": "",
           "knots": []
         }
       ],
@@ -303,7 +312,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [949.1957243161858, 398.7359351102226],
+      "position": [
+        949.1957243161858,
+        398.7359351102226
+      ],
       "fontSize": 24,
       "textBottom": "",
       "conditions": [],
@@ -340,7 +352,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [610.2960571717537, 400.44534109561647],
+      "position": [
+        610.2960571717537,
+        400.44534109561647
+      ],
       "fontSize": 24,
       "textBottom": "",
       "conditions": [],
@@ -374,7 +389,10 @@
         "assign": 1
       },
       "type": "update",
-      "position": [200.61152879033688, 134.1374182969995],
+      "position": [
+        200.61152879033688,
+        134.1374182969995
+      ],
       "conditions": []
     },
     {
@@ -391,7 +409,10 @@
         "assign": 0
       },
       "type": "update",
-      "position": [208.36250293346393, 229.8814526572566],
+      "position": [
+        208.36250293346393,
+        229.8814526572566
+      ],
       "conditions": []
     },
     {
@@ -413,7 +434,10 @@
         }
       ],
       "type": "evaluate",
-      "position": [86.44847211432379, 172.03879247883003]
+      "position": [
+        86.44847211432379,
+        172.03879247883003
+      ]
     },
     {
       "choices": [
@@ -436,7 +460,10 @@
       "photoLeft": 0,
       "photoRight": 0,
       "type": "normal",
-      "position": [501.57507415394883, 25.390778630261345],
+      "position": [
+        501.57507415394883,
+        25.390778630261345
+      ],
       "photoWidth": 100,
       "skipAfter": "",
       "photoOpacity": 0,
@@ -444,7 +471,12 @@
         {
           "opacity": 1,
           "duration": 1,
-          "after": 0.2
+          "after": 0.2,
+          "afterAction": ""
+        },
+        {
+          "afterAction": true,
+          "transform": "rotate(-40deg)"
         }
       ],
       "conditions": [],
@@ -477,7 +509,10 @@
       "photoLeft": 0,
       "photoRight": 0,
       "type": "normal",
-      "position": [378.78256310527775, 92.33740446388218],
+      "position": [
+        378.78256310527775,
+        92.33740446388218
+      ],
       "photoWidth": 300,
       "skipAfter": 0.4,
       "photoOpacity": 0,
@@ -507,10 +542,14 @@
       "tag": "Background 2",
       "bgPhoto": "https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png",
       "type": "normal",
-      "position": [239.31649146423888, 58.02881935394282],
+      "position": [
+        239.31649146423888,
+        58.02881935394282
+      ],
       "conditions": [],
       "skipAfter": 0.2,
-      "bgFilter": "blur(2px)"
+      "bgFilter": "blur(2px)",
+      "entryPoint": false
     },
     {
       "choices": [
@@ -527,7 +566,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [493.72303932603427, 175.65174452294022],
+      "position": [
+        493.72303932603427,
+        175.65174452294022
+      ],
       "fontSize": 32,
       "textBottom": "",
       "conditions": [],
@@ -541,9 +583,18 @@
           "id": "29a248e3-f619-4dcd-a8ef-cef4b445fec0",
           "toScene": "f4c49a8c-b70b-4da2-8860-cbe387635952",
           "knots": [
-            [919.1155328291084, 129.6528135400826],
-            [377.29321676609203, 21.4832504411711],
-            [58.63153088010954, 84.82578739098415]
+            [
+              919.1155328291084,
+              129.6528135400826
+            ],
+            [
+              377.29321676609203,
+              21.4832504411711
+            ],
+            [
+              58.63153088010954,
+              84.82578739098415
+            ]
           ]
         }
       ],
@@ -552,7 +603,10 @@
       "skipAfter": 0.2,
       "clearPhoto": true,
       "type": "normal",
-      "position": [821.4559343155055, 136.05379212065165],
+      "position": [
+        821.4559343155055,
+        136.05379212065165
+      ],
       "conditions": [],
       "clearText": true
     },
@@ -571,7 +625,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [608.7595830973513, 131.84469563549527],
+      "position": [
+        608.7595830973513,
+        131.84469563549527
+      ],
       "fontSize": 32,
       "textBottom": 200,
       "conditions": [],
@@ -591,7 +648,10 @@
       "id": "bf68ad51-f468-4f14-b747-2bc72607e6d3",
       "tag": "pause",
       "type": "normal",
-      "position": [697.9039037889919, 200.79135503756493],
+      "position": [
+        697.9039037889919,
+        200.79135503756493
+      ],
       "conditions": []
     },
     {
@@ -609,7 +669,10 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [299.88837958915025, 168.9211939301193],
+      "position": [
+        299.88837958915025,
+        168.9211939301193
+      ],
       "fontSize": 32,
       "textBottom": "",
       "conditions": [],
@@ -622,8 +685,11 @@
   "language": "Korean & English",
   "title": "Korean Basics",
   "description": "Learn some basic Korean words",
-  "position": [87.8342773951941, 61.95460450561819],
-  "zoom": 102.61666666666696,
+  "position": [
+    131.77075706394817,
+    95.44747827059719
+  ],
+  "zoom": 86.23333333333369,
   "startScene": "e1332a2d-0f99-453f-8545-3ac6c73b3581",
   "cover": "https://media-cdn.tripadvisor.com/media/photo-s/15/11/e2/aa/korean-desserts-perfect.jpg",
   "lastEditTime": 1586548168732,
