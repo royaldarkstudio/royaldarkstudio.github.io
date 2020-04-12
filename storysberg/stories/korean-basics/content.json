@@ -1,0 +1,634 @@
+{
+  "scenes": [
+    {
+      "choices": [
+        {
+          "id": "6cf60003-df1e-4f07-bbdd-8cee7b71ade6",
+          "toScene": "f4c49a8c-b70b-4da2-8860-cbe387635952",
+          "knots": []
+        }
+      ],
+      "id": "e1332a2d-0f99-453f-8545-3ac6c73b3581",
+      "tag": "BGM 1",
+      "type": "normal",
+      "position": [-29.985085377794803, 226.89496721993788],
+      "stopBgm": false,
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/53282_10_-_Weight_of_My_Love_-_Instrumental_Master_(16-44.1).mp3",
+      "skipAfter": 1,
+      "conditions": [],
+      "entryPoint": false
+    },
+    {
+      "choices": [
+        {
+          "id": "f2ea9262-99db-464c-859f-e5065c29d746",
+          "toScene": "dff026af-2cf4-43ad-adf1-1ca28a2d372a",
+          "knots": []
+        }
+      ],
+      "id": "bc47c782-b428-4094-bc14-c08fb16e4a55",
+      "tag": "Background 1",
+      "bgPhoto": "https://i.pinimg.com/originals/51/f7/9f/51f79f98f6eaa8faeac426a112d4818c.jpg",
+      "type": "normal",
+      "position": [302.9005732221719, 294.92046665147916],
+      "conditions": [],
+      "skipAfter": 0.2,
+      "bgFilter": "blur(2px)"
+    },
+    {
+      "choices": [
+        {
+          "id": "6a3bf369-3fd7-4647-9e20-0ec4a0db3429",
+          "toScene": "cc9eb28d-f290-4c82-b3dd-cd011d0d5d00",
+          "knots": []
+        }
+      ],
+      "id": "ed5ded8a-1e89-45a3-b21b-b54ddea17bc5",
+      "text": "맞습니다!",
+      "fontFamily": "Hi Melody",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [607.8321480071144, 271.6034919471979],
+      "fontSize": 24,
+      "textBottom": "",
+      "conditions": [],
+      "photoId": "party",
+      "photoUrl": "https://icons.iconarchive.com/icons/google/noto-emoji-activities/512/52707-party-popper-icon.png",
+      "photoBottom": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoWidth": 100,
+      "photoEffects": [
+        {
+          "transform": "scale(2)",
+          "duration": 1,
+          "after": 0.6,
+          "filter": "",
+          "timingFunction": "cubic-bezier(0.11, 0.83, 0.54, 1.04)"
+        }
+      ],
+      "tag": "correct",
+      "photoPersist": false
+    },
+    {
+      "choices": [
+        {
+          "id": "2b65f979-b8eb-4321-ba1a-9ff31ad5909e",
+          "toScene": "3dd472b1-b7eb-48e6-8f56-c75350ffd295",
+          "knots": [],
+          "text": "계란"
+        },
+        {
+          "id": "d7d991c9-8a87-4215-9396-3965598c49ef",
+          "text": "접시",
+          "toScene": "3dd472b1-b7eb-48e6-8f56-c75350ffd295",
+          "knots": []
+        },
+        {
+          "id": "5849fbd0-88b1-4903-9b5d-01f2346bdbaa",
+          "text": "라면",
+          "toScene": "22f15941-d676-49fd-bdeb-67b43c1f8994",
+          "knots": []
+        },
+        {
+          "id": "3ca5af22-3f59-4b91-9269-fab7a9afd31d",
+          "text": "생선",
+          "toScene": "3dd472b1-b7eb-48e6-8f56-c75350ffd295",
+          "knots": []
+        }
+      ],
+      "id": "9f939264-bf5a-45bc-b9f3-c6840aeb730e",
+      "text": "이것은 워예요?",
+      "fontFamily": "Hi Melody",
+      "textTop": "",
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [829.1389522156184, 341.4991143478546],
+      "fontSize": 24,
+      "textBottom": 200,
+      "conditions": [],
+      "audio": "https://sugarflakes.github.io/public/aud/what_is_this.mp3",
+      "textBg": "#9c3838"
+    },
+    {
+      "choices": [
+        {
+          "id": "861b61cd-1ee4-4476-8ef2-01aaf2b3772d",
+          "toScene": "e8eb840d-b13b-479e-9f45-ec35bd8146e6",
+          "knots": []
+        }
+      ],
+      "id": "dff026af-2cf4-43ad-adf1-1ca28a2d372a",
+      "photoId": "",
+      "photoUrl": "https://pngimg.com/uploads/egg/egg_PNG40798.png",
+      "photoTop": 100,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "type": "normal",
+      "position": [380.82904969777945, 377.8449793238216],
+      "photoWidth": 200,
+      "skipAfter": 0.4,
+      "photoOpacity": 0,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 1,
+          "after": 0.2
+        },
+        {
+          "top": 80,
+          "after": 1
+        }
+      ],
+      "conditions": [],
+      "photoPersist": true,
+      "tag": "egg"
+    },
+    {
+      "choices": [
+        {
+          "id": "0ac25f81-6af2-4a20-9925-c8f19823e026",
+          "toScene": "ed5ded8a-1e89-45a3-b21b-b54ddea17bc5",
+          "knots": [],
+          "text": "계란"
+        },
+        {
+          "id": "c2e86f5f-da5d-47b7-8de5-3de2ac64c734",
+          "text": "접시",
+          "toScene": "d8bdbdc9-c4f5-4060-a175-440eee83f041",
+          "knots": []
+        },
+        {
+          "id": "be04aa69-fa71-4c17-9eeb-f99fb59d6c43",
+          "text": "라면",
+          "toScene": "d8bdbdc9-c4f5-4060-a175-440eee83f041",
+          "knots": []
+        },
+        {
+          "id": "97e97d5d-7129-4f65-bd10-db32803d5c8f",
+          "text": "생선",
+          "toScene": "d8bdbdc9-c4f5-4060-a175-440eee83f041",
+          "knots": []
+        }
+      ],
+      "id": "e8eb840d-b13b-479e-9f45-ec35bd8146e6",
+      "text": "이것은 워예요?",
+      "fontFamily": "Hi Melody",
+      "textTop": "",
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [500.0770790695636, 322.79083987907177],
+      "fontSize": 24,
+      "textBottom": 200,
+      "conditions": [],
+      "audio": "https://sugarflakes.github.io/public/aud/what_is_this.mp3",
+      "textBg": "#8d4040"
+    },
+    {
+      "choices": [
+        {
+          "id": "3dccb55a-b0ef-4bfe-ae0a-b17d0f2ea425",
+          "toScene": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
+          "knots": []
+        }
+      ],
+      "id": "3dd472b1-b7eb-48e6-8f56-c75350ffd295",
+      "text": "틀립니다 ...",
+      "fontFamily": "Hi Melody",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [951.1405742756342, 325.1122530339862],
+      "fontSize": 24,
+      "textBottom": "",
+      "conditions": [],
+      "photoId": "sad",
+      "photoUrl": "https://cdn.shopify.com/s/files/1/1061/1924/products/Sad_Face_Emoji_1024x1024.png?v=1571606037",
+      "photoBottom": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoWidth": 100,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 2,
+          "after": 0.2
+        }
+      ],
+      "tag": "wrong",
+      "photoOpacity": 0
+    },
+    {
+      "choices": [
+        {
+          "id": "9361fbb9-e88f-4a3a-ae2b-2224df007a1e",
+          "toScene": "9f939264-bf5a-45bc-b9f3-c6840aeb730e",
+          "knots": []
+        }
+      ],
+      "id": "8daf162d-5113-4c95-bd4a-f62c24f977aa",
+      "photoId": "",
+      "photoUrl": "https://purepng.com/public/uploads/medium/purepng.com-noodlenoodlechinesestaple-foodwheat-doughnudel-1411527961210vhzc9.png",
+      "photoTop": 100,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "type": "normal",
+      "position": [740.1727806105201, 274.6570199277335],
+      "photoWidth": 300,
+      "skipAfter": 0.4,
+      "photoOpacity": 0,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 1,
+          "after": 0.2
+        }
+      ],
+      "conditions": [],
+      "photoPersist": true,
+      "tag": "ramyeon"
+    },
+    {
+      "choices": [
+        {
+          "id": "e3600045-7bab-4498-9f98-9e849351e20a",
+          "toScene": "8daf162d-5113-4c95-bd4a-f62c24f977aa",
+          "knots": []
+        }
+      ],
+      "id": "cc9eb28d-f290-4c82-b3dd-cd011d0d5d00",
+      "tag": "clear",
+      "skipAfter": 0.4,
+      "clearPhoto": true,
+      "type": "normal",
+      "position": [663.6628753377679, 333.87741290025417],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "c855cdaf-ce87-466c-b0d8-92e79465de56",
+          "toScene": "f4c49a8c-b70b-4da2-8860-cbe387635952",
+          "knots": [
+            [1115.964647657758, 574.9995733256912],
+            [55.70802917473355, 430.7734891938092]
+          ]
+        }
+      ],
+      "id": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
+      "tag": "clear",
+      "skipAfter": 0.4,
+      "clearPhoto": true,
+      "type": "normal",
+      "position": [1016.1234813696334, 477.13561432101204],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "c4bbb534-b659-4d1a-abe4-6a7f213a3d51",
+          "toScene": "e9f35b91-5744-4bfa-9adf-903bdab2512c",
+          "knots": []
+        }
+      ],
+      "id": "22f15941-d676-49fd-bdeb-67b43c1f8994",
+      "text": "맞습니다!",
+      "fontFamily": "Hi Melody",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [949.1957243161858, 398.7359351102226],
+      "fontSize": 24,
+      "textBottom": "",
+      "conditions": [],
+      "photoId": "party",
+      "photoUrl": "https://icons.iconarchive.com/icons/google/noto-emoji-activities/512/52707-party-popper-icon.png",
+      "photoBottom": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoWidth": 100,
+      "photoEffects": [
+        {
+          "transform": "scale(2)",
+          "duration": 1,
+          "after": 0.6,
+          "filter": "",
+          "timingFunction": "cubic-bezier(0.11, 0.83, 0.54, 1.04)"
+        }
+      ],
+      "tag": "correct",
+      "photoPersist": false
+    },
+    {
+      "choices": [
+        {
+          "id": "532c3633-6467-4827-8b3f-7b4a23ed4f98",
+          "toScene": "cc9eb28d-f290-4c82-b3dd-cd011d0d5d00",
+          "knots": []
+        }
+      ],
+      "id": "d8bdbdc9-c4f5-4060-a175-440eee83f041",
+      "text": "틀립니다 ...",
+      "fontFamily": "Hi Melody",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [610.2960571717537, 400.44534109561647],
+      "fontSize": 24,
+      "textBottom": "",
+      "conditions": [],
+      "photoId": "sad",
+      "photoUrl": "https://cdn.shopify.com/s/files/1/1061/1924/products/Sad_Face_Emoji_1024x1024.png?v=1571606037",
+      "photoBottom": 200,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoWidth": 100,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 2,
+          "after": 0.2
+        }
+      ],
+      "tag": "wrong",
+      "photoOpacity": 0
+    },
+    {
+      "choices": [
+        {
+          "id": "6415af83-6169-44fb-83d7-5c937215dd8f",
+          "toScene": "1b7570dd-8d19-4cc6-a451-67410e6f9b18",
+          "knots": []
+        }
+      ],
+      "id": "97197ebe-78d2-4e98-b388-6fff5f398b18",
+      "effect": {
+        "key": "game",
+        "assign": 1
+      },
+      "type": "update",
+      "position": [200.61152879033688, 134.1374182969995],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "a6740a65-80bd-4a83-b133-8ce8b8be5ebf",
+          "toScene": "bc47c782-b428-4094-bc14-c08fb16e4a55",
+          "knots": []
+        }
+      ],
+      "id": "2ed9ab88-62d0-4947-b3d1-eed1f3f723f9",
+      "effect": {
+        "key": "game",
+        "assign": 0
+      },
+      "type": "update",
+      "position": [208.36250293346393, 229.8814526572566],
+      "conditions": []
+    },
+    {
+      "choices": [],
+      "id": "f4c49a8c-b70b-4da2-8860-cbe387635952",
+      "conditionKey": "game",
+      "conditions": [
+        {
+          "id": "59b16e55-e1fe-4608-92bf-476d83781ed7",
+          "toScene": "97197ebe-78d2-4e98-b388-6fff5f398b18",
+          "vMax": 0,
+          "knots": []
+        },
+        {
+          "id": "b33f6261-bcbf-4077-9194-f9f2124dee09",
+          "toScene": "2ed9ab88-62d0-4947-b3d1-eed1f3f723f9",
+          "vMax": 1,
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [86.44847211432379, 172.03879247883003]
+    },
+    {
+      "choices": [
+        {
+          "id": "bc85cad2-46f5-4571-9860-8de60336d8e4",
+          "toScene": "",
+          "knots": []
+        },
+        {
+          "id": "a017ad40-0b7b-42ba-9923-640d58e29ef5",
+          "text": "",
+          "toScene": "ed66bb00-aa41-4166-af3b-bf62c9b131c7",
+          "knots": []
+        }
+      ],
+      "id": "54a34b9f-5204-4994-a536-73b498234a31",
+      "photoId": "",
+      "photoUrl": "https://pngimg.com/uploads/egg/egg_PNG40798.png",
+      "photoTop": "",
+      "photoLeft": 0,
+      "photoRight": 0,
+      "type": "normal",
+      "position": [501.57507415394883, 25.390778630261345],
+      "photoWidth": 100,
+      "skipAfter": "",
+      "photoOpacity": 0,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 1,
+          "after": 0.2
+        }
+      ],
+      "conditions": [],
+      "photoPersist": true,
+      "tag": "egg",
+      "photoParamType": "textValue",
+      "photoParam": "food",
+      "photoValue": "egg",
+      "photoBottom": 100,
+      "photoTransform": "rotate(40deg)"
+    },
+    {
+      "choices": [
+        {
+          "id": "30d2f2a8-0534-4269-a71e-7235a2d1ffcb",
+          "toScene": "54a34b9f-5204-4994-a536-73b498234a31",
+          "knots": []
+        },
+        {
+          "id": "851ba20e-7a2c-4935-b044-b42b2cda782e",
+          "text": "",
+          "toScene": "d50a7a5d-e723-4701-b328-8f01544634ac",
+          "knots": []
+        }
+      ],
+      "id": "c2a04a08-4164-4fe9-b0dc-841f94bece27",
+      "photoId": "",
+      "photoUrl": "https://purepng.com/public/uploads/medium/purepng.com-noodlenoodlechinesestaple-foodwheat-doughnudel-1411527961210vhzc9.png",
+      "photoTop": 140,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "type": "normal",
+      "position": [378.78256310527775, 92.33740446388218],
+      "photoWidth": 300,
+      "skipAfter": 0.4,
+      "photoOpacity": 0,
+      "photoEffects": [
+        {
+          "opacity": 1,
+          "duration": 1,
+          "after": 0.2
+        }
+      ],
+      "conditions": [],
+      "photoPersist": true,
+      "tag": "ramyeon",
+      "photoParam": "food",
+      "photoValue": "ramyeon",
+      "photoParamType": "textValue"
+    },
+    {
+      "choices": [
+        {
+          "id": "45e328bb-cd7b-4c54-b3e5-39a187f843e5",
+          "toScene": "987ee4d2-dc2a-4fbf-9056-2736cedee51a",
+          "knots": []
+        }
+      ],
+      "id": "1b7570dd-8d19-4cc6-a451-67410e6f9b18",
+      "tag": "Background 2",
+      "bgPhoto": "https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png",
+      "type": "normal",
+      "position": [239.31649146423888, 58.02881935394282],
+      "conditions": [],
+      "skipAfter": 0.2,
+      "bgFilter": "blur(2px)"
+    },
+    {
+      "choices": [
+        {
+          "id": "371fa28b-420f-401f-8d79-cc43049de17d",
+          "toScene": "bf68ad51-f468-4f14-b747-2bc72607e6d3",
+          "knots": []
+        }
+      ],
+      "id": "d50a7a5d-e723-4701-b328-8f01544634ac",
+      "text": "라면",
+      "fontFamily": "Hi Melody",
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [493.72303932603427, 175.65174452294022],
+      "fontSize": 32,
+      "textBottom": "",
+      "conditions": [],
+      "audio": "https://sugarflakes.github.io/public/aud/ramyeon.mp3",
+      "tag": "AUD ramyeon",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "29a248e3-f619-4dcd-a8ef-cef4b445fec0",
+          "toScene": "f4c49a8c-b70b-4da2-8860-cbe387635952",
+          "knots": [
+            [919.1155328291084, 129.6528135400826],
+            [377.29321676609203, 21.4832504411711],
+            [58.63153088010954, 84.82578739098415]
+          ]
+        }
+      ],
+      "id": "a34363f8-7ca2-4f0b-a864-f2c5e4b39de1",
+      "tag": "clear",
+      "skipAfter": 0.2,
+      "clearPhoto": true,
+      "type": "normal",
+      "position": [821.4559343155055, 136.05379212065165],
+      "conditions": [],
+      "clearText": true
+    },
+    {
+      "choices": [
+        {
+          "id": "47fb4a99-99a0-464d-9c40-ca56848eaad1",
+          "toScene": "bf68ad51-f468-4f14-b747-2bc72607e6d3",
+          "knots": []
+        }
+      ],
+      "id": "ed66bb00-aa41-4166-af3b-bf62c9b131c7",
+      "text": "계란",
+      "fontFamily": "Hi Melody",
+      "textTop": "",
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [608.7595830973513, 131.84469563549527],
+      "fontSize": 32,
+      "textBottom": 200,
+      "conditions": [],
+      "audio": "https://sugarflakes.github.io/public/aud/egg.mp3",
+      "tag": "AUD egg",
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "a657594d-7992-4179-a410-c88cbd2c23ab",
+          "toScene": "a34363f8-7ca2-4f0b-a864-f2c5e4b39de1",
+          "knots": [],
+          "text": "[force display]"
+        }
+      ],
+      "id": "bf68ad51-f468-4f14-b747-2bc72607e6d3",
+      "tag": "pause",
+      "type": "normal",
+      "position": [697.9039037889919, 200.79135503756493],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "596c422d-765a-4411-bc5c-52ca3a0fd71b",
+          "toScene": "c2a04a08-4164-4fe9-b0dc-841f94bece27",
+          "knots": []
+        }
+      ],
+      "id": "987ee4d2-dc2a-4fbf-9056-2736cedee51a",
+      "text": "단어 연습",
+      "fontFamily": "Hi Melody",
+      "textTop": 60,
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [299.88837958915025, 168.9211939301193],
+      "fontSize": 32,
+      "textBottom": "",
+      "conditions": [],
+      "audio": "",
+      "tag": "title 1",
+      "skipAfter": 1
+    }
+  ],
+  "id": "korean-basics",
+  "language": "Korean & English",
+  "title": "Korean Basics",
+  "description": "Learn some basic Korean words",
+  "position": [87.8342773951941, 61.95460450561819],
+  "zoom": 102.61666666666696,
+  "startScene": "e1332a2d-0f99-453f-8545-3ac6c73b3581",
+  "cover": "https://media-cdn.tripadvisor.com/media/photo-s/15/11/e2/aa/korean-desserts-perfect.jpg",
+  "lastEditTime": 1586548168732,
+  "viewport": {
+    "width": 375,
+    "height": 667
+  }
+}
