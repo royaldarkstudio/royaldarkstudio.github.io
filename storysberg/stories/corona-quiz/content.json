@@ -12,10 +12,7 @@
       "tag": "BGM 1",
       "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/12261_78574f5e2f434837bfa7a947099da6e9.mp3",
       "type": "normal",
-      "position": [
-        97.82982791587008,
-        80.86615678776295
-      ],
+      "position": [97.82982791587008, 80.86615678776295],
       "conditions": [],
       "skipAfter": 0.4
     },
@@ -30,10 +27,7 @@
       "id": "fd45d83d-f473-44db-81ec-473360e6369b",
       "tag": "Background 1",
       "type": "normal",
-      "position": [
-        254.48606156878222,
-        124.68100571884973
-      ],
+      "position": [254.48606156878222, 124.68100571884973],
       "bgPhoto": "https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png",
       "conditions": [],
       "skipAfter": 0.4
@@ -65,10 +59,7 @@
         }
       ],
       "type": "normal",
-      "position": [
-        341.74666990968313,
-        124.1019745348561
-      ],
+      "position": [341.74666990968313, 124.1019745348561],
       "photoUrl": "https://na.cx/i/ZNS6Rv3.png",
       "photoRepeatEffects": true,
       "conditions": [],
@@ -112,18 +103,14 @@
       "tag": "Q1",
       "text": "Question 1\nWhat's the size of a coronavirus? ",
       "type": "normal",
-      "position": [
-        992.550377782265,
-        -303.2722740108252
-      ],
+      "position": [992.550377782265, -303.2722740108252],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -145,10 +132,7 @@
         }
       ],
       "type": "normal",
-      "position": [
-        575.2087105391113,
-        122.50922174568234
-      ],
+      "position": [575.2087105391113, 122.50922174568234],
       "photoLeft": 0,
       "photoRight": 0,
       "photoTop": 100,
@@ -176,10 +160,7 @@
         }
       ],
       "type": "normal",
-      "position": [
-        654.7199940849973,
-        124.03440320440627
-      ],
+      "position": [654.7199940849973, 124.03440320440627],
       "photoLeft": 0,
       "photoRight": 0,
       "photoTop": 100,
@@ -207,10 +188,7 @@
         }
       ],
       "type": "normal",
-      "position": [
-        495.86579841278024,
-        123.6523034191247
-      ],
+      "position": [495.86579841278024, 123.6523034191247],
       "photoLeft": 0,
       "photoRight": 0,
       "photoTop": 100,
@@ -249,18 +227,14 @@
       "tag": "Q2",
       "text": "Question 2\nWhich one of the following diseases is NOT caused by coronavirus?",
       "type": "normal",
-      "position": [
-        963.5524017025956,
-        -209.78029157065626
-      ],
+      "position": [963.5524017025956, -209.78029157065626],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -275,10 +249,7 @@
       "skipAfter": 0.2,
       "clearText": true,
       "type": "normal",
-      "position": [
-        1258.6795809351197,
-        152.48255475210854
-      ],
+      "position": [1258.6795809351197, 152.48255475210854],
       "conditions": []
     },
     {
@@ -294,10 +265,7 @@
       "skipAfter": 0.2,
       "clearText": true,
       "type": "normal",
-      "position": [
-        1255.0849346636091,
-        199.36591995287336
-      ],
+      "position": [1255.0849346636091, 199.36591995287336],
       "conditions": []
     },
     {
@@ -318,10 +286,7 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [
-        1343.1052555655501,
-        199.06580919034445
-      ],
+      "position": [1343.1052555655501, 199.06580919034445],
       "photoUrl": "https://clipartart.com/images/50s-star-clipart-17.png",
       "photoOpacity": 0,
       "photoBottom": "",
@@ -358,10 +323,7 @@
       "textLeft": 0,
       "textRight": 0,
       "type": "normal",
-      "position": [
-        1349.2944676665109,
-        150.6877686351705
-      ],
+      "position": [1349.2944676665109, 150.6877686351705],
       "photoUrl": "https://na.cx/i/ZNS6Rv3.png",
       "photoOpacity": 0,
       "photoBottom": "",
@@ -394,10 +356,7 @@
         "adjust": "+1"
       },
       "type": "update",
-      "position": [
-        1408.4104300988522,
-        198.08370493566252
-      ],
+      "position": [1408.4104300988522, 198.08370493566252],
       "conditions": []
     },
     {
@@ -415,10 +374,7 @@
         "assign": 0
       },
       "type": "update",
-      "position": [
-        187.0683041260434,
-        79.55504944939327
-      ],
+      "position": [187.0683041260434, 79.55504944939327],
       "conditions": []
     },
     {
@@ -494,10 +450,7 @@
         }
       ],
       "type": "evaluate",
-      "position": [
-        736.8424973732396,
-        122.8534075825963
-      ]
+      "position": [736.8424973732396, 122.8534075825963]
     },
     {
       "choices": [
@@ -513,10 +466,7 @@
         "assign": 1
       },
       "type": "update",
-      "position": [
-        190.7621914458975,
-        124.00063511605711
-      ],
+      "position": [190.7621914458975, 124.00063511605711],
       "conditions": []
     },
     {
@@ -525,14 +475,8 @@
           "id": "a8abf177-b9ee-48ee-989e-19db6c12abcb",
           "toScene": "52b50693-056d-4700-a529-e63994a37138",
           "knots": [
-            [
-              1475.048868087922,
-              116.18129825050994
-            ],
-            [
-              743.7258625740044,
-              88.43658157877222
-            ]
+            [1475.048868087922, 116.18129825050994],
+            [743.7258625740044, 88.43658157877222]
           ]
         }
       ],
@@ -543,10 +487,7 @@
         "adjust": "+1"
       },
       "type": "update",
-      "position": [
-        1410.6511625429894,
-        151.59238811666674
-      ],
+      "position": [1410.6511625429894, 151.59238811666674],
       "conditions": []
     },
     {
@@ -580,10 +521,7 @@
       "tag": "Q3",
       "text": "Question 3\nWhat are the spikes on the surface of the virus made of?",
       "type": "normal",
-      "position": [
-        912.6154697838648,
-        -128.6622174942385
-      ],
+      "position": [912.6154697838648, -128.6622174942385],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
@@ -611,10 +549,7 @@
       "skipAfter": 0.2,
       "clearText": true,
       "type": "normal",
-      "position": [
-        407.8919482701504,
-        123.43764687578191
-      ],
+      "position": [407.8919482701504, 123.43764687578191],
       "conditions": []
     },
     {
@@ -648,18 +583,14 @@
       "tag": "Q4",
       "text": "Question 4\nWhich one of the following organs is the most likely to suffer damage from COVID-19?",
       "type": "normal",
-      "position": [
-        881.4363551968717,
-        -49.73662760950204
-      ],
+      "position": [881.4363551968717, -49.73662760950204],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -692,18 +623,14 @@
       "tag": "Q5",
       "text": "Question 5\nWhich one is NOT a symptom of COVID-19?",
       "type": "normal",
-      "position": [
-        848.7020854258499,
-        47.98898331988025
-      ],
+      "position": [848.7020854258499, 47.98898331988025],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -736,18 +663,14 @@
       "tag": "Q6",
       "text": "Question 6\nACE-2 stands for ....",
       "type": "normal",
-      "position": [
-        859.8392799611588,
-        167.65032640242782
-      ],
+      "position": [859.8392799611588, 167.65032640242782],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -780,18 +703,14 @@
       "tag": "Q7",
       "text": "Question 7\nA coronavirus has ....",
       "type": "normal",
-      "position": [
-        875.5945233708183,
-        264.2214251132224
-      ],
+      "position": [875.5945233708183, 264.2214251132224],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -824,18 +743,14 @@
       "tag": "Q8",
       "text": "Question 8\nTo avoid giving coronavirus to your friends, you should ....",
       "type": "normal",
-      "position": [
-        804.7613503864042,
-        378.11020710283174
-      ],
+      "position": [804.7613503864042, 378.11020710283174],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -868,18 +783,14 @@
       "tag": "Q9",
       "text": "Question 9\nA coronavirus is ....",
       "type": "normal",
-      "position": [
-        899.0234246600237,
-        502.3895990597299
-      ],
+      "position": [899.0234246600237, 502.3895990597299],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -912,18 +823,14 @@
       "tag": "Q10",
       "text": "Question 10\nWhich one of the following organelles is essential to replicate viruses inside a cell?",
       "type": "normal",
-      "position": [
-        935.7749135609441,
-        625.2266320862593
-      ],
+      "position": [935.7749135609441, 625.2266320862593],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
       "textRight": 0,
       "fontSize": 24,
       "clearPhoto": true,
-      "textBg": "#4a90e2",
-      "entryPoint": true
+      "textBg": "#4a90e2"
     },
     {
       "choices": [
@@ -937,10 +844,7 @@
       "tag": "Result",
       "text": "Finished! Your score is\n{correct} / 10",
       "type": "normal",
-      "position": [
-        966.0293802637053,
-        767.5547317072662
-      ],
+      "position": [966.0293802637053, 767.5547317072662],
       "conditions": [],
       "textTop": 100,
       "textLeft": 0,
@@ -981,10 +885,7 @@
       "tag": "Thanks",
       "text": "Thank you for playing!",
       "type": "normal",
-      "position": [
-        1027.1447024077227,
-        768.5725985183111
-      ],
+      "position": [1027.1447024077227, 768.5725985183111],
       "conditions": [],
       "textTop": 200,
       "textLeft": 0,
@@ -1008,10 +909,7 @@
   "language": "English",
   "title": "Corona Quiz",
   "description": "Testing how much you know about coronavirus.",
-  "position": [
-    55.19798908378348,
-    252.74704483706955
-  ],
+  "position": [55.19798908378348, 252.74704483706955],
   "zoom": 57.733333333333356,
   "viewport": {
     "width": 375,
