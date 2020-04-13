@@ -1,0 +1,1030 @@
+{
+  "scenes": [
+    {
+      "choices": [
+        {
+          "id": "14942370-cd41-4a7b-a34b-2f34f5ef3ea4",
+          "toScene": "16467a49-40e2-4ace-bfe4-864654c2087f",
+          "knots": []
+        }
+      ],
+      "id": "2f061190-dae7-4bd8-81ab-49b89df3b3e0",
+      "tag": "BGM 1",
+      "bgm": "https://artlistmusic.azureedge.net/artlist-mp3/12261_78574f5e2f434837bfa7a947099da6e9.mp3",
+      "type": "normal",
+      "position": [
+        97.82982791587008,
+        80.86615678776295
+      ],
+      "conditions": [],
+      "skipAfter": 0.4
+    },
+    {
+      "choices": [
+        {
+          "id": "f1c0a68c-cf27-4da5-b33a-e37373062f30",
+          "toScene": "ab7ebf86-9faa-44e6-8625-78750adbcfef",
+          "knots": []
+        }
+      ],
+      "id": "fd45d83d-f473-44db-81ec-473360e6369b",
+      "tag": "Background 1",
+      "type": "normal",
+      "position": [
+        254.48606156878222,
+        124.68100571884973
+      ],
+      "bgPhoto": "https://i.pinimg.com/originals/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.png",
+      "conditions": [],
+      "skipAfter": 0.4
+    },
+    {
+      "choices": [
+        {
+          "id": "44425863-503e-4be0-aced-676dc3a787fe",
+          "toScene": "1d0fd3e0-5f15-4d1e-b2a7-f937e35995ff",
+          "knots": []
+        }
+      ],
+      "id": "ab7ebf86-9faa-44e6-8625-78750adbcfef",
+      "tag": "virus hat",
+      "photoBottom": 40,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoEffects": [
+        {
+          "bottom": "",
+          "duration": 1,
+          "after": 2,
+          "transform": "rotate(-20deg)"
+        },
+        {
+          "bottom": "",
+          "transform": "rotate(10deg)",
+          "after": ""
+        }
+      ],
+      "type": "normal",
+      "position": [
+        341.74666990968313,
+        124.1019745348561
+      ],
+      "photoUrl": "https://na.cx/i/ZNS6Rv3.png",
+      "photoRepeatEffects": true,
+      "conditions": [],
+      "text": "Corona\nQuiz",
+      "fontFamily": "Atma",
+      "fontSize": 42,
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "photoWidth": "",
+      "photoOpacity": ""
+    },
+    {
+      "choices": [
+        {
+          "id": "34272247-8581-492c-8aa9-25eec58d28a3",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "10 nanometers"
+        },
+        {
+          "id": "69f3c1ce-66ae-4aeb-8174-e4a53ef3617b",
+          "text": "7 nanometers",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "e767a1ea-6dac-4725-8f86-c5e7fef38360",
+          "text": "1 nanometer",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "95f1cca2-da4f-4de2-8320-e1565dfacc75",
+          "text": "0.1 nanometers",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        }
+      ],
+      "id": "e2eb0b41-7ce4-47eb-855f-6ddec6c3acf7",
+      "tag": "Q1",
+      "text": "Question 1\nWhat's the size of a coronavirus? ",
+      "type": "normal",
+      "position": [
+        992.550377782265,
+        -303.2722740108252
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "8fb43bb4-2f42-4bd9-9ec8-5f320c4727e7",
+          "toScene": "e17184ff-d92e-4686-accd-231635cc1c82",
+          "knots": []
+        }
+      ],
+      "id": "80239f18-b9c3-4c92-bbcd-5595281a0666",
+      "tag": "Countdown 2",
+      "photoUrl": "https://cdn.pixabay.com/photo/2012/04/23/17/07/two-39115_960_720.png",
+      "photoEffects": [
+        {
+          "width": 10,
+          "duration": 1,
+          "after": 0.4,
+          "opacity": 0
+        }
+      ],
+      "type": "normal",
+      "position": [
+        575.2087105391113,
+        122.50922174568234
+      ],
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": 100,
+      "photoWidth": 200,
+      "conditions": [],
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "9dbb5fac-b01b-41b8-821d-623caf509f3f",
+          "toScene": "52b50693-056d-4700-a529-e63994a37138",
+          "knots": []
+        }
+      ],
+      "id": "e17184ff-d92e-4686-accd-231635cc1c82",
+      "tag": "Countdown 1",
+      "photoUrl": "https://cdn.clipart.email/e898501801e57625f4010e9bb48c8784_dotty-one-clip-art-at-clkercom-vector-clip-art-online-royalty-_390-597.png",
+      "photoEffects": [
+        {
+          "width": 10,
+          "duration": 1,
+          "after": 0.2,
+          "opacity": 0
+        }
+      ],
+      "type": "normal",
+      "position": [
+        654.7199940849973,
+        124.03440320440627
+      ],
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": 100,
+      "photoWidth": 200,
+      "conditions": [],
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "63e9d1eb-8468-46a9-bc26-c9ca1d5fae7e",
+          "toScene": "80239f18-b9c3-4c92-bbcd-5595281a0666",
+          "knots": []
+        }
+      ],
+      "id": "40604ee1-65f0-430d-ac41-6fe331db27fe",
+      "tag": "Countdown 3",
+      "photoUrl": "https://na.cx/i/izTt6BK.png",
+      "photoEffects": [
+        {
+          "width": 10,
+          "duration": 1,
+          "after": 0.4,
+          "opacity": 0
+        }
+      ],
+      "type": "normal",
+      "position": [
+        495.86579841278024,
+        123.6523034191247
+      ],
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoTop": 100,
+      "photoWidth": 200,
+      "conditions": [],
+      "skipAfter": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "0b3f7c1a-b977-47fe-86c0-914c8d6b3ebd",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "MERS"
+        },
+        {
+          "id": "02628526-2724-4b7c-97b2-f2dcb0bedff0",
+          "text": "COVID-19",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "0b9f3f19-a663-4b00-8432-8b1e06474555",
+          "text": "SARS",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "c0428145-8076-4783-b996-3c8b1ee37103",
+          "text": "H1N1",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        }
+      ],
+      "id": "91f13dd2-2dc9-48fa-a85f-d4a30811821c",
+      "tag": "Q2",
+      "text": "Question 2\nWhich one of the following diseases is NOT caused by coronavirus?",
+      "type": "normal",
+      "position": [
+        963.5524017025956,
+        -209.78029157065626
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "a74f325a-09f9-4666-827d-71e6cfd917fb",
+          "toScene": "75261e7c-152a-4eb8-aa5c-2b718731fb77",
+          "knots": []
+        }
+      ],
+      "id": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+      "tag": "Clear Text",
+      "skipAfter": 0.2,
+      "clearText": true,
+      "type": "normal",
+      "position": [
+        1258.6795809351197,
+        152.48255475210854
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "0a4b29c5-889c-4cbc-8439-60d4e746f175",
+          "toScene": "f94c9a2c-e045-4956-9a93-8cf511f08a2e",
+          "knots": []
+        }
+      ],
+      "id": "64845dae-bd6f-4fbb-9574-38a517000f03",
+      "tag": "Clear Text",
+      "skipAfter": 0.2,
+      "clearText": true,
+      "type": "normal",
+      "position": [
+        1255.0849346636091,
+        199.36591995287336
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "b038c67b-d18e-4a7d-a956-1aa1099597d1",
+          "toScene": "fed67ab5-4987-4dd0-8eca-e6f510d04a2e",
+          "knots": []
+        }
+      ],
+      "id": "f94c9a2c-e045-4956-9a93-8cf511f08a2e",
+      "tag": "Star Cute",
+      "text": "Awesome!",
+      "fontFamily": "Atma",
+      "fontSize": 42,
+      "textTop": 280,
+      "textBottom": "",
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [
+        1343.1052555655501,
+        199.06580919034445
+      ],
+      "photoUrl": "https://clipartart.com/images/50s-star-clipart-17.png",
+      "photoOpacity": 0,
+      "photoBottom": "",
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoEffects": [
+        {
+          "after": 0.2,
+          "width": 300,
+          "opacity": 1,
+          "duration": 1
+        }
+      ],
+      "photoWidth": 100,
+      "conditions": [],
+      "photoTop": 160,
+      "textDelay": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "d011b1aa-d880-40b2-875b-461d24cec638",
+          "toScene": "816ceb08-6016-427b-8a96-4e52ca4c238d",
+          "knots": []
+        }
+      ],
+      "id": "75261e7c-152a-4eb8-aa5c-2b718731fb77",
+      "tag": "Wrong",
+      "text": "Errr....",
+      "fontFamily": "Atma",
+      "fontSize": 42,
+      "textTop": 280,
+      "textBottom": "",
+      "textLeft": 0,
+      "textRight": 0,
+      "type": "normal",
+      "position": [
+        1349.2944676665109,
+        150.6877686351705
+      ],
+      "photoUrl": "https://na.cx/i/ZNS6Rv3.png",
+      "photoOpacity": 0,
+      "photoBottom": "",
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoEffects": [
+        {
+          "after": 0.2,
+          "width": 300,
+          "opacity": 1,
+          "duration": 1
+        }
+      ],
+      "photoWidth": 100,
+      "conditions": [],
+      "photoTop": 200,
+      "textDelay": 1
+    },
+    {
+      "choices": [
+        {
+          "id": "f02489bb-9dc9-4bf5-ad43-76b0b818235c",
+          "toScene": "816ceb08-6016-427b-8a96-4e52ca4c238d",
+          "knots": []
+        }
+      ],
+      "id": "fed67ab5-4987-4dd0-8eca-e6f510d04a2e",
+      "effect": {
+        "key": "correct",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [
+        1408.4104300988522,
+        198.08370493566252
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "16c381e2-f169-4ce2-9d09-6c80b350ce0c",
+          "toScene": "1ae1cbd8-f973-4806-8388-6f1aa339ad51",
+          "knots": []
+        }
+      ],
+      "id": "16467a49-40e2-4ace-bfe4-864654c2087f",
+      "effect": {
+        "key": "correct",
+        "adjust": "",
+        "assign": 0
+      },
+      "type": "update",
+      "position": [
+        187.0683041260434,
+        79.55504944939327
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [],
+      "id": "52b50693-056d-4700-a529-e63994a37138",
+      "conditionKey": "qnum",
+      "conditions": [
+        {
+          "id": "063dce71-cd47-4ab6-856b-8a1b75e011dc",
+          "toScene": "e2eb0b41-7ce4-47eb-855f-6ddec6c3acf7",
+          "vMax": 1,
+          "knots": []
+        },
+        {
+          "id": "23cf7271-66d3-49d4-a8fa-4ba4cdddbfce",
+          "toScene": "91f13dd2-2dc9-48fa-a85f-d4a30811821c",
+          "vMax": 2,
+          "knots": []
+        },
+        {
+          "id": "28dc3d15-e65f-454d-a767-dd85c813b9bc",
+          "toScene": "95617679-e070-47ab-adb4-11c2b12687ff",
+          "vMax": 3,
+          "knots": []
+        },
+        {
+          "id": "bb6da4d4-1bc1-42fb-a1f3-afb78e9f3186",
+          "toScene": "4dde5ea1-3f15-4df5-824e-a47005551bc4",
+          "vMax": 4,
+          "knots": []
+        },
+        {
+          "id": "f802199a-c3d6-442e-9bb4-f42f192a67cb",
+          "toScene": "904334f0-225d-41f5-8c43-a4af6decad2d",
+          "vMax": 5,
+          "knots": []
+        },
+        {
+          "id": "c55bf601-af65-40cc-b52d-4313f1d09a5a",
+          "toScene": "af84077e-bd13-4b88-9a51-e084f1b65b8d",
+          "vMax": 6,
+          "knots": []
+        },
+        {
+          "id": "b29324b0-5133-4789-8324-45235ffca26d",
+          "toScene": "a6102644-80b0-4e67-ac29-829cffb17691",
+          "vMax": 7,
+          "knots": []
+        },
+        {
+          "id": "4bb3227f-1686-4502-88a7-86f6ffaf1cb6",
+          "toScene": "7e69b8c3-19ac-4f76-bcb6-edbfaee05e3f",
+          "vMax": 8,
+          "knots": []
+        },
+        {
+          "id": "44b00e35-4256-427c-9f49-202915ccea58",
+          "toScene": "c4c1502d-9649-4727-a7f8-504e88f321d4",
+          "vMax": 9,
+          "knots": []
+        },
+        {
+          "id": "e61aa097-f34c-4576-ae01-9de4f2901035",
+          "toScene": "428f0624-47bc-4a43-a34b-0159d63af30a",
+          "vMax": 10,
+          "knots": []
+        },
+        {
+          "id": "5fd4adb1-1d91-421a-af6a-02f3dc02209d",
+          "toScene": "96ce545d-0d8d-4ebb-8246-e7e546502ecf",
+          "vText": "[default-condition]",
+          "knots": []
+        }
+      ],
+      "type": "evaluate",
+      "position": [
+        736.8424973732396,
+        122.8534075825963
+      ]
+    },
+    {
+      "choices": [
+        {
+          "id": "1704f618-5c00-4bb2-8d47-fc56b510e372",
+          "toScene": "fd45d83d-f473-44db-81ec-473360e6369b",
+          "knots": []
+        }
+      ],
+      "id": "1ae1cbd8-f973-4806-8388-6f1aa339ad51",
+      "effect": {
+        "key": "qnum",
+        "assign": 1
+      },
+      "type": "update",
+      "position": [
+        190.7621914458975,
+        124.00063511605711
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "a8abf177-b9ee-48ee-989e-19db6c12abcb",
+          "toScene": "52b50693-056d-4700-a529-e63994a37138",
+          "knots": [
+            [
+              1475.048868087922,
+              116.18129825050994
+            ],
+            [
+              743.7258625740044,
+              88.43658157877222
+            ]
+          ]
+        }
+      ],
+      "id": "816ceb08-6016-427b-8a96-4e52ca4c238d",
+      "effect": {
+        "key": "qnum",
+        "assign": "",
+        "adjust": "+1"
+      },
+      "type": "update",
+      "position": [
+        1410.6511625429894,
+        151.59238811666674
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "6325ce78-155a-4d22-8a16-4a70235fde3d",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "Cells"
+        },
+        {
+          "id": "5f3e935b-cfc7-4299-bbcb-52446b96e6fa",
+          "text": "Protein",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        },
+        {
+          "id": "5631a3dd-40a3-4219-a75b-9b53ff6c35d0",
+          "text": "Lipid",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "698bb2db-9850-4a61-b985-221b5aea6e76",
+          "text": "Glucose",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "95617679-e070-47ab-adb4-11c2b12687ff",
+      "tag": "Q3",
+      "text": "Question 3\nWhat are the spikes on the surface of the virus made of?",
+      "type": "normal",
+      "position": [
+        912.6154697838648,
+        -128.6622174942385
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": false,
+      "textBg": "#4a90e2",
+      "entryPoint": true,
+      "photoUrl": "https://lh3.googleusercontent.com/proxy/TRr26A6dkdx4-Kx38UWYwCY-lckad1No73UFGm_GZwcQBXzNFytn7C8yyTD52SIQHtuDqW5VUutrFAAey5sJXnFi26p5xPMDH1fO8RYYIkV3ipL2N_AZaCM3-VBB0Qb6tuzZxSlzvm81diDUVmuIYWnVakLvI-lLbnXTMln7RlwguOoAFCu56pn3Mg",
+      "photoBottom": 160,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoWidth": 300
+    },
+    {
+      "choices": [
+        {
+          "id": "bb6b8d49-ca30-4c28-af34-3790e0dd850e",
+          "toScene": "40604ee1-65f0-430d-ac41-6fe331db27fe",
+          "knots": []
+        }
+      ],
+      "id": "1d0fd3e0-5f15-4d1e-b2a7-f937e35995ff",
+      "tag": "Clear Text",
+      "skipAfter": 0.2,
+      "clearText": true,
+      "type": "normal",
+      "position": [
+        407.8919482701504,
+        123.43764687578191
+      ],
+      "conditions": []
+    },
+    {
+      "choices": [
+        {
+          "id": "478073bf-3397-4dd9-b424-37473de1cb63",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "Intestins"
+        },
+        {
+          "id": "394ec863-896a-4638-841c-b82beb868018",
+          "text": "Kidney",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "a67cbc75-be40-43c0-ad2d-cf8886f299dc",
+          "text": "Liver",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "d6b71654-05ba-40d8-a8ed-3e27e3efcf89",
+          "text": "Lungs",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        }
+      ],
+      "id": "4dde5ea1-3f15-4df5-824e-a47005551bc4",
+      "tag": "Q4",
+      "text": "Question 4\nWhich one of the following organs is the most likely to suffer damage from COVID-19?",
+      "type": "normal",
+      "position": [
+        881.4363551968717,
+        -49.73662760950204
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "fa3bfa0e-e27c-47a3-9b44-600a769466c2",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "Sore throat"
+        },
+        {
+          "id": "ab73ffdc-846d-4f4d-845c-c52b44837390",
+          "text": "Diarrhea",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "006f6682-dfa8-44ed-80cf-5a37dc130de6",
+          "text": "Anxiety",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        },
+        {
+          "id": "50302931-5cff-4a35-ab36-b827034c5078",
+          "text": "Dyspnea",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "904334f0-225d-41f5-8c43-a4af6decad2d",
+      "tag": "Q5",
+      "text": "Question 5\nWhich one is NOT a symptom of COVID-19?",
+      "type": "normal",
+      "position": [
+        848.7020854258499,
+        47.98898331988025
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "1ef08d4b-88b4-49c4-9a15-b45a35f904ef",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": [],
+          "text": "Angiotensin-converting enzyme 2"
+        },
+        {
+          "id": "9e8f9cf8-0ced-4021-b95d-6b26931d872a",
+          "text": "Angiotensin-conserving enzyme 2",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "4a415d51-5cdb-4435-be01-7240084583d5",
+          "text": "Antihypertensives-converting enzyme 2",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "07c603f7-5db8-4478-aa82-8493df858a4a",
+          "text": "Antihypertensives-conserving enzyme 2",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "af84077e-bd13-4b88-9a51-e084f1b65b8d",
+      "tag": "Q6",
+      "text": "Question 6\nACE-2 stands for ....",
+      "type": "normal",
+      "position": [
+        859.8392799611588,
+        167.65032640242782
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "56d09a98-39be-437d-89e4-8f3dc550d3f0",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": [],
+          "text": "One envelope and one capsid"
+        },
+        {
+          "id": "308bca64-1f7e-4754-ad05-e53b2a231df6",
+          "text": "One envelope and two capsids",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "8231ef9c-de41-4b9a-b33c-d008b0a642d8",
+          "text": "Two envelopes and one capsid",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "ba92fd5c-6efc-4b18-86c0-fdd599632d1d",
+          "text": "Two envelopes and two capsids",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "a6102644-80b0-4e67-ac29-829cffb17691",
+      "tag": "Q7",
+      "text": "Question 7\nA coronavirus has ....",
+      "type": "normal",
+      "position": [
+        875.5945233708183,
+        264.2214251132224
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "cffbefa2-f1af-48da-8892-8ac2a9a5b44b",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "Cough while uncovered"
+        },
+        {
+          "id": "f61ee2af-44ff-4a11-99d4-6eb6051a697d",
+          "text": "Wear mask when you have symptoms",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        },
+        {
+          "id": "fc9695ea-92d5-42cb-97e8-d9027300f32f",
+          "text": "Ask them to wear masks",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "8628e40e-2ad1-48c1-bdeb-312f125df562",
+          "text": "Give them some dead virus instead",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "7e69b8c3-19ac-4f76-bcb6-edbfaee05e3f",
+      "tag": "Q8",
+      "text": "Question 8\nTo avoid giving coronavirus to your friends, you should ....",
+      "type": "normal",
+      "position": [
+        804.7613503864042,
+        378.11020710283174
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "0d008a01-5bf8-42ae-a550-1634b71442e9",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "a DNA virus"
+        },
+        {
+          "id": "a7bec826-192d-40d6-a8a0-b54089a29a69",
+          "text": "an RNA virus",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        },
+        {
+          "id": "10d4349b-185f-4f23-a00d-d79280c55bd1",
+          "text": "a retrovirus",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "a59d68d1-1b91-4292-a7e0-a7c2292da55e",
+          "text": "a cytomegalovirus",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "c4c1502d-9649-4727-a7f8-504e88f321d4",
+      "tag": "Q9",
+      "text": "Question 9\nA coronavirus is ....",
+      "type": "normal",
+      "position": [
+        899.0234246600237,
+        502.3895990597299
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "123bb87a-9353-4d6e-9d66-c9d8032dfcc8",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": [],
+          "text": "Cell membrane"
+        },
+        {
+          "id": "2f20707e-921f-481b-9f68-2171f128b44f",
+          "text": "Golgi aparatus",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        },
+        {
+          "id": "9900272f-b624-4242-96db-1bf95488b89c",
+          "text": "Mitochondria",
+          "toScene": "64845dae-bd6f-4fbb-9574-38a517000f03",
+          "knots": []
+        },
+        {
+          "id": "ec26b3be-0e91-49be-af72-ed492f3d036f",
+          "text": "Vacuole",
+          "toScene": "1f694ad6-07a0-4c6a-8faa-eec2048f9041",
+          "knots": []
+        }
+      ],
+      "id": "428f0624-47bc-4a43-a34b-0159d63af30a",
+      "tag": "Q10",
+      "text": "Question 10\nWhich one of the following organelles is essential to replicate viruses inside a cell?",
+      "type": "normal",
+      "position": [
+        935.7749135609441,
+        625.2266320862593
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": true,
+      "textBg": "#4a90e2",
+      "entryPoint": true
+    },
+    {
+      "choices": [
+        {
+          "id": "9577366d-0509-4950-9e2a-7bdd9f7f8c19",
+          "toScene": "99028382-c3b2-4add-9934-fa3bbf93505c",
+          "knots": []
+        }
+      ],
+      "id": "96ce545d-0d8d-4ebb-8246-e7e546502ecf",
+      "tag": "Result",
+      "text": "Finished! Your score is\n{correct} / 10",
+      "type": "normal",
+      "position": [
+        966.0293802637053,
+        767.5547317072662
+      ],
+      "conditions": [],
+      "textTop": 100,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 24,
+      "clearPhoto": false,
+      "entryPoint": true,
+      "fontFamily": "Atma",
+      "photoUrl": "https://na.cx/i/ZNS6Rv3.png",
+      "photoBottom": 100,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoParamType": "adjust",
+      "photoParam": "complete",
+      "photoValue": "+1",
+      "photoEffects": [
+        {
+          "bottom": 180,
+          "duration": 1,
+          "after": 0.4
+        },
+        {
+          "bottom": 80,
+          "after": 1
+        }
+      ],
+      "photoRepeatEffects": true
+    },
+    {
+      "choices": [
+        {
+          "id": "7b1864d8-e40d-4df5-9851-3303fcb6b0c4",
+          "toScene": "",
+          "knots": []
+        }
+      ],
+      "id": "99028382-c3b2-4add-9934-fa3bbf93505c",
+      "tag": "Thanks",
+      "text": "Thank you for playing!",
+      "type": "normal",
+      "position": [
+        1027.1447024077227,
+        768.5725985183111
+      ],
+      "conditions": [],
+      "textTop": 200,
+      "textLeft": 0,
+      "textRight": 0,
+      "fontSize": 48,
+      "clearPhoto": true,
+      "entryPoint": false,
+      "fontFamily": "Atma",
+      "photoUrl": "",
+      "photoBottom": 100,
+      "photoLeft": 0,
+      "photoRight": 0,
+      "photoParamType": "adjust",
+      "photoParam": "complete",
+      "photoValue": "+1",
+      "photoEffects": [],
+      "photoRepeatEffects": false
+    }
+  ],
+  "id": "corona-quiz",
+  "language": "English",
+  "title": "Corona Quiz",
+  "description": "Testing how much you know about coronavirus.",
+  "position": [
+    55.19798908378348,
+    252.74704483706955
+  ],
+  "zoom": 57.733333333333356,
+  "viewport": {
+    "width": 375,
+    "height": 640
+  },
+  "lastEditTime": 1586764163626,
+  "cover": "https://na.cx/i/ZNS6Rv3.png",
+  "startScene": "2f061190-dae7-4bd8-81ab-49b89df3b3e0",
+  "author": {
+    "name": "Royal Dark Studio",
+    "email": "royaldarkstudio@pm.me",
+    "website": "https://royaldarkstudio.github.io"
+  },
+  "pegiRating": "3",
+  "copyright": "2020 Royal Dark Studio"
+}
